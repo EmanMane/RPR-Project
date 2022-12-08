@@ -140,7 +140,7 @@ public class AnimalDaoSQLImpl implements AnimalDao {
                 q.setCreated(rs.getDate(3));
                 animalList.add(q);
             }
-            return quoteLista;
+            return animalList;
         } catch (SQLException e) {
             e.printStackTrace();
         }
