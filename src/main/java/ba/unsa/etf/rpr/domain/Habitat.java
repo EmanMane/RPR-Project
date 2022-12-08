@@ -4,7 +4,6 @@ import java.util.Objects;
 
 /**
  * List of possible categories for habitat
- *
  * @author Eman Alibalić
  */
 public class Habitat {
