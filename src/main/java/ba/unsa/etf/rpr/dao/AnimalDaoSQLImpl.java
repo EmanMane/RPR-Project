@@ -125,7 +125,7 @@ public class AnimalDaoSQLImpl implements AnimalDao {
      */
 
     @Override
-    public List<Animal> searchByCategory(Habitat habitat) {
+    public List<Animal> searchByHabitat(Habitat habitat) {
         String query = "SELECT * FROM quotes WHERE habitat = ?";
         try {
             PreparedStatement stmt = this.connection.prepareStatement(query);

@@ -23,5 +23,5 @@ public interface AnimalDao extends Dao<Animal>{
      * @param habitat search string for animals
      * @return list of animals in the chosen habitat
      */
-    List<Animal> searchByCategory(Habitat habitat);
+    List<Animal> searchByHabitat(Habitat habitat);
 }
