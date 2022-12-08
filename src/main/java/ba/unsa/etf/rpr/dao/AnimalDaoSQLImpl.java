@@ -126,11 +126,11 @@ public class AnimalDaoSQLImpl implements AnimalDao {
 
     @Override
     public List<Animal> searchByHabitat(Habitat habitat) {
-        String query = "SELECT * FROM quotes WHERE habitat = ?";
+        String query = "SELECT * FROM animals WHERE habitat = ?";
         try {
             PreparedStatement stmt = this.connection.prepareStatement(query);
             stmt.setInt(1, habitat.getId());
-            ResultSet rs = stmt.executeQuery();
+            ResultSet rs = stmt.executeQuery();//lista rezultata lafo
             ArrayList<Animal> animalList = new ArrayList<>();
             while (rs.next()) {
                 Animal q = new Animal();

@@ -29,7 +29,7 @@ public class Habitat {
 
     @Override
     public String toString() {
-        return "Category{" +
+        return "Habitat{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
@@ -39,8 +39,8 @@ public class Habitat {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Habitat category = (Habitat) o;
-        return id == category.id;
+        Habitat habitat = (Habitat) o;
+        return id == habitat.id;
     }
 
     @Override
