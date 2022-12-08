@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="ZooHabitats update">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/domain/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/domain/Animal.java" afterDir="false" />
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="AnimalHistory created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670401662918</updated>
       <workItem from="1670401664419" duration="2495000" />
-      <workItem from="1670494996943" duration="357000" />
+      <workItem from="1670494996943" duration="1174000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1670401920559</created>
@@ -88,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670495334439</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Animal created">
+      <created>1670495661366</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670495661366</updated>
+    </task>
+    <task id="LOCAL-00007" summary="AnimalHistory created">
+      <created>1670495803208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670495803208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +125,8 @@
     <MESSAGE value="ZooHabitats created" />
     <MESSAGE value="ZooHabitats renamed" />
     <MESSAGE value="ZooHabitats update" />
-    <option name="LAST_COMMIT_MESSAGE" value="ZooHabitats update" />
+    <MESSAGE value="Animal created" />
+    <MESSAGE value="AnimalHistory created" />
+    <option name="LAST_COMMIT_MESSAGE" value="AnimalHistory created" />
   </component>
 </project>
