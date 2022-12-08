@@ -1,4 +1,4 @@
 package ba.unsa.etf.rpr.domain;
 
-public class ZooHabitats {
+public class Habitats {
 }
