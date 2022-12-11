@@ -9,10 +9,13 @@ public class HabitatDaoSQLImpl implements HabitatDao{
     private Connection connection;
 
     public HabitatDaoSQLImpl(){
-        try{
-            this.connection = DriverManager.getConnection("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7583250", "sql7583250", "hpqdZqhxta");
-        }catch (Exception e){
-            e.printStackTrace();
+        String url = "jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7583250";
+        String user = "sql7583250";
+        String password = "hpqdZqhxta";
+        try {
+            connection = DriverManager.getConnection(url, user, password);
+        }catch (SQLException throwables) {
+            throwables.printStackTrace();
         }
     }
 

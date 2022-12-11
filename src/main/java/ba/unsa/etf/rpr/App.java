@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+
 /**
  * App interface demo
  * @author Eman Alibalić
@@ -39,11 +40,11 @@ public class App {
         habitat.setId(2);
         habitat.setName("Zivotinje");
         ArrayList<Animal> animalsByHabitats = new ArrayList<Animal>(dao.searchByHabitat(habitat));
-        System.out.println("Treba ispisati 2 zivotinje u ovom habitatu: ");
+        System.out.println("Treba ispisati zivotinje u drugom habitatu: ");
         animalsByHabitats.forEach(q -> System.out.println(q.getAnimal()));
 
 
-        System.out.println("\n Jedan quote sa inside word \"gora\": ");
+        System.out.println("\n Zivotinja sa inside word \"Lion\": ");
         ArrayList<Animal> animals = new ArrayList<Animal>(dao.searchByType("Lion"));
         for (Animal q : animals) {
             System.out.println(q.getAnimal());

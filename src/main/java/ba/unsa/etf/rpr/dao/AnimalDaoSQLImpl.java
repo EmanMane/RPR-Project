@@ -10,10 +10,13 @@ public class AnimalDaoSQLImpl implements AnimalDao{
     private Connection connection;
 
     public AnimalDaoSQLImpl(){
+        String url = "jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7583250";
+        String user = "sql7583250";
+        String password = "hpqdZqhxta";
         try {
-            this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/root", "root", "root");
-        } catch (Exception e) {
-            e.printStackTrace();
+            connection = DriverManager.getConnection(url, user, password);
+        }catch (SQLException throwables) {
+            throwables.printStackTrace();
         }
     }
 
@@ -27,7 +30,7 @@ public class AnimalDaoSQLImpl implements AnimalDao{
             if (rs.next()) { // result set is iterator.
                 Animal animal = new Animal();
                 animal.setId(rs.getInt("id"));
-                animal.setAnimal(rs.getString("quote"));
+                animal.setAnimal(rs.getString("animal"));
                 rs.close();
                 return animal;
             } else {
@@ -95,7 +98,7 @@ public class AnimalDaoSQLImpl implements AnimalDao{
     @Override
     public List<Animal> searchByType(String type){
         //mora sa concat jer inace nece raditi jer radi sa key chars
-        String query = "SELECT * FROM animals WHERE quote LIKE concat('%', ?, '%')";
+        String query = "SELECT * FROM animals WHERE animal LIKE concat('%', ?, '%')";
         try {
             PreparedStatement stmt = this.connection.prepareStatement(query);
             stmt.setString(1, type);
@@ -105,7 +108,7 @@ public class AnimalDaoSQLImpl implements AnimalDao{
                 Animal x = new Animal();
                 x.setId(rs.getInt(1));
                 x.setAnimal(rs.getString(2));
-                x.setHabitat(returnHabitatForId(rs.getInt(4)));
+                x.setHabitat(returnHabitatForId(rs.getInt(3)));
                 animalList.add(x);
             }
             return animalList;
@@ -124,7 +127,7 @@ public class AnimalDaoSQLImpl implements AnimalDao{
 
     @Override
     public List<Animal> searchByHabitat(Habitat habitat){
-        String query = "SELECT * FROM animals WHERE habitat = ?";
+        String query = "SELECT * FROM animals WHERE habitat_id = ?";
         try {
             PreparedStatement stmt = this.connection.prepareStatement(query);
             stmt.setInt(1, habitat.getId());
