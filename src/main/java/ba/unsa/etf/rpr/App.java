@@ -19,21 +19,6 @@ import java.util.Stack;
  */
 public class App {
     public static void main(String[] args) {
-//    {
-//        CategoryDao dao = new CategoryDaoSQLImpl();
-//
-//
-//        List<Category> categories = dao.getAll();
-//        System.out.println(categories);
-//
-//        Category c2 = new Category();
-//        c2.setId(2);
-//        c2.setName("Courage");
-//        dao.delete(2);
-//        categories = dao.getAll();
-//        System.out.println(categories);
-//    }
-
         AnimalDao dao = new AnimalDaoSQLImpl() ;
 
         Habitat habitat = new Habitat();
@@ -44,10 +29,10 @@ public class App {
         animalsByHabitats.forEach(q -> System.out.println(q.getAnimal()));
 
 
-        System.out.println("\n Zivotinja sa inside word \"Lion\": ");
-        ArrayList<Animal> animals = new ArrayList<Animal>(dao.searchByType("Lion"));
-        for (Animal q : animals) {
-            System.out.println(q.getAnimal());
+        System.out.println("\nZivotinja sa inside word \"in\": \n|  ID  |  Animal  |\n-------------------");
+        ArrayList<Animal> animals = new ArrayList<Animal>(dao.searchByType("in"));
+        for (Animal a : animals) {
+            System.out.println(a.getId() + " " + a.getAnimal());
         }
     }
 }
