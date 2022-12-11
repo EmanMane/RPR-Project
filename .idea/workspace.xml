@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Habitat update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Animal removed date of creation">
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalDaoSQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalDaoSQLImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalHistoryDaoSQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalHistoryDaoSQLImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/domain/Habitat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/domain/Habitat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +53,7 @@
       <workItem from="1670401664419" duration="2495000" />
       <workItem from="1670494996943" duration="4501000" />
       <workItem from="1670502486722" duration="5024000" />
+      <workItem from="1670718899584" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1670401920559</created>
@@ -169,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670504294996</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Animal removed date of creation">
+      <created>1670719201604</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670719201604</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +208,7 @@
     <MESSAGE value="AnimalHistoryDaoSQL update" />
     <MESSAGE value="Animal function fix" />
     <MESSAGE value="Habitat update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Habitat update" />
+    <MESSAGE value="Animal removed date of creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animal removed date of creation" />
   </component>
 </project>

@@ -10,7 +10,7 @@ public class HabitatDaoSQLImpl implements HabitatDao{
 
     public HabitatDaoSQLImpl(){
         try{
-            this.connection = DriverManager.getConnection("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7582258", "sql7582258", "m6JTHrdhjw");
+            this.connection = DriverManager.getConnection("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7583250", "sql7583250", "hpqdZqhxta");
         }catch (Exception e){
             e.printStackTrace();
         }

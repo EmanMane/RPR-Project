@@ -19,7 +19,7 @@ public class AnimalDaoSQLImpl implements AnimalDao{
 
     @Override
     public Animal getById(int id){
-        String query = "SELECT * FROM quotes WHERE id = ?";
+        String query = "SELECT * FROM animals WHERE id = ?";
         try {
             PreparedStatement stmt = this.connection.prepareStatement(query);
             stmt.setInt(1, id);
@@ -28,7 +28,6 @@ public class AnimalDaoSQLImpl implements AnimalDao{
                 Animal animal = new Animal();
                 animal.setId(rs.getInt("id"));
                 animal.setAnimal(rs.getString("quote"));
-                animal.setCreated(rs.getDate("created"));
                 rs.close();
                 return animal;
             } else {
@@ -70,7 +69,7 @@ public class AnimalDaoSQLImpl implements AnimalDao{
      */
 
     public Habitat returnHabitatForId(int id){
-        String query = "SELECT * FROM categories WHERE id = ?";
+        String query = "SELECT * FROM habitats WHERE id = ?";
         try {
             PreparedStatement stmt = this.connection.prepareStatement(query);
             stmt.setInt(1, id);
@@ -96,7 +95,7 @@ public class AnimalDaoSQLImpl implements AnimalDao{
     @Override
     public List<Animal> searchByType(String type){
         //mora sa concat jer inace nece raditi jer radi sa key chars
-        String query = "SELECT * FROM quotes WHERE quote LIKE concat('%', ?, '%')";
+        String query = "SELECT * FROM animals WHERE quote LIKE concat('%', ?, '%')";
         try {
             PreparedStatement stmt = this.connection.prepareStatement(query);
             stmt.setString(1, type);
@@ -107,7 +106,6 @@ public class AnimalDaoSQLImpl implements AnimalDao{
                 x.setId(rs.getInt(1));
                 x.setAnimal(rs.getString(2));
                 x.setHabitat(returnHabitatForId(rs.getInt(4)));
-                x.setCreated(rs.getDate(3));
                 animalList.add(x);
             }
             return animalList;
@@ -137,7 +135,6 @@ public class AnimalDaoSQLImpl implements AnimalDao{
                 a.setId(rs.getInt(1));
                 a.setAnimal(rs.getString(2));
                 a.setHabitat(habitat);
-                a.setCreated(rs.getDate(3));
                 animalList.add(a);
             }
             return animalList;
