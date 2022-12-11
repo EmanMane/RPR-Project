@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Fix for tables Animals and Habitats and small implementation">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Demo class for checking methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalDaoSQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalDaoSQLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalHistoryDaoSQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalHistoryDaoSQLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/HabitatDaoSQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/HabitatDaoSQLImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
       <recent name="ba.unsa.etf.rpr.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.App" />
       <module name="RPR-Project" />
@@ -83,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +104,7 @@
       <workItem from="1670494996943" duration="4501000" />
       <workItem from="1670502486722" duration="5024000" />
       <workItem from="1670718899584" duration="4564000" />
-      <workItem from="1670751811218" duration="5388000" />
+      <workItem from="1670751811218" duration="19478000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1670401920559</created>
@@ -249,7 +253,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670756277524</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="App output edit">
+      <created>1670757654486</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670757654486</updated>
+    </task>
+    <task id="LOCAL-00023" summary="AnimalHistory Fix">
+      <created>1670764833114</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670764833114</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Demo class for checking methods">
+      <created>1670780613436</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670780613436</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +312,9 @@
     <MESSAGE value="Small changes in SQL implementation files" />
     <MESSAGE value="Created App Class" />
     <MESSAGE value="Fix for tables Animals and Habitats and small implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix for tables Animals and Habitats and small implementation" />
+    <MESSAGE value="App output edit" />
+    <MESSAGE value="AnimalHistory Fix" />
+    <MESSAGE value="Demo class for checking methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo class for checking methods" />
   </component>
 </project>

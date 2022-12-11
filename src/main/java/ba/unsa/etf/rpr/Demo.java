@@ -13,8 +13,15 @@ import ba.unsa.etf.rpr.domain.Habitat;
 public class Demo {
     public static void main(String[] args) {
         HabitatDao dao = new HabitatDaoSQLImpl();
-        Habitat x = new Habitat();
-        x.setId(25); x.setName("Zanzibarius");
+        Habitat x = new Habitat(),y = new Habitat();
+        x.setId(25); //id must not be duplicate
+        x.setName("Zanzibarius");
+        //When adding identical object into table Too many connections exception is thrown
         x=dao.add(x);
+
+        y.setId(26); //id must not be duplicate
+        y.setName("Kukurus");
+        //When adding identical object into table Too many connections exception is thrown
+        y=dao.add(y);
     }
 }
