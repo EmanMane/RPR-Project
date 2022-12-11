@@ -6,29 +6,29 @@ import java.util.Objects;
  * List of possible categories for habitat
  * @author Eman Alibalić
  */
-public class Habitat {
+public class Habitat{
 
     private int id;
     private String name;
 
-    public int getId() {
+    public int getId(){
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(int id){
         this.id = id;
     }
 
-    public String getName() {
+    public String getName(){
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name){
         this.name = name;
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         return "Habitat{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
@@ -36,7 +36,7 @@ public class Habitat {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o){
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Habitat habitat = (Habitat) o;
@@ -44,7 +44,7 @@ public class Habitat {
     }
 
     @Override
-    public int hashCode() {
+    public int hashCode(){
         return Objects.hash(id, name);
     }
 }

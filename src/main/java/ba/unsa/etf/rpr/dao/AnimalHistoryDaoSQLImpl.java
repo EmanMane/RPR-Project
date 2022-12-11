@@ -8,7 +8,7 @@ import java.util.List;
 public class AnimalHistoryDaoSQLImpl implements AnimalHistoryDao{
     private Connection conn;
 
-    public AnimalHistoryDaoSQLImpl() {
+    public AnimalHistoryDaoSQLImpl(){
         try {
             this.conn= DriverManager.getConnection("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7582258", "sql7582258", "m6JTHrdhjw");
         } catch (SQLException e) {
@@ -18,7 +18,7 @@ public class AnimalHistoryDaoSQLImpl implements AnimalHistoryDao{
     }
 
     @Override
-    public AnimalHistory getById(int id) {
+    public AnimalHistory getById(int id){
         try {
             PreparedStatement stmt = this.conn.prepareStatement("SELECT * FROM habitats WHERE id = ?");
             stmt.setInt(1, id);
@@ -57,7 +57,7 @@ public class AnimalHistoryDaoSQLImpl implements AnimalHistoryDao{
     }
 
     @Override
-    public AnimalHistory add(AnimalHistory item) {
+    public AnimalHistory add(AnimalHistory item){
         int id = getMaxId();
         try {
             PreparedStatement stmt = this.conn.prepareStatement("INSERT INTO animal_history VALUES (id, item.getAnimal().getId(), item.getGenerated())");
@@ -72,7 +72,7 @@ public class AnimalHistoryDaoSQLImpl implements AnimalHistoryDao{
     }
 
     @Override
-    public AnimalHistory update(AnimalHistory item) {
+    public AnimalHistory update(AnimalHistory item){
         try{
             PreparedStatement stmt = this.conn.prepareStatement("UPDATE animal_history SET quote=?, generated=? WHERE id=?");
             stmt.setInt(1, item.getAnimal().getId());
@@ -88,7 +88,7 @@ public class AnimalHistoryDaoSQLImpl implements AnimalHistoryDao{
     }
 
     @Override
-    public void delete(int id) {
+    public void delete(int id){
         try{
             PreparedStatement stmt = this.conn.prepareStatement("DELETE FROM animal_history WHERE id = ?");
             stmt.setInt(1, id);
@@ -100,7 +100,7 @@ public class AnimalHistoryDaoSQLImpl implements AnimalHistoryDao{
     }
 
     @Override
-    public List<AnimalHistory> getAll() {
+    public List<AnimalHistory> getAll(){
         List<AnimalHistory> histories = new ArrayList<>();
         try{
             PreparedStatement stmt = this.conn.prepareStatement("SELECT * FROM animal_history");
@@ -120,7 +120,7 @@ public class AnimalHistoryDaoSQLImpl implements AnimalHistoryDao{
     }
 
     @Override
-    public List<AnimalHistory> getByDateRange(Date start, Date end) {
+    public List<AnimalHistory> getByDateRange(Date start, Date end){
         List<AnimalHistory> histories = new ArrayList<>();
         try{
             PreparedStatement stmt = this.conn.prepareStatement("SELECT * FROM animal_history WHERE generated BETWEEN start AND end");
@@ -133,7 +133,7 @@ public class AnimalHistoryDaoSQLImpl implements AnimalHistoryDao{
             }
             rs.close();
         }catch (SQLException e){
-            System.out.println("Problem pri radu sa bazom podataka");
+            System.out.println("Error in database");
             System.out.println(e.getMessage());
         }
         return histories;

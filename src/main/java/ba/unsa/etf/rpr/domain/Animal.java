@@ -11,7 +11,6 @@ public class Animal {
     private int id;
     private String animal;
     private Habitat habitat;
-    private Date created;
 
     public int getId() {
         return id;
@@ -37,21 +36,12 @@ public class Animal {
         this.habitat = habitat;
     }
 
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
     @Override
     public String toString() {
         return "Animal{" +
                 "id=" + id +
                 ", animal='" + animal + '\'' +
                 ", habitat=" + habitat +
-                ", created=" + created +
                 '}';
     }
 
@@ -65,6 +55,6 @@ public class Animal {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, animal, habitat, created);
+        return Objects.hash(id, animal, habitat);
     }
 }
