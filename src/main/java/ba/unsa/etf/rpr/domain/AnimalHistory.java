@@ -6,7 +6,7 @@ import java.util.Objects;
  * Holds history of all animals that died or left the zoo
  * @author Eman Alibalić
  */
-public class AnimalHistory {
+public class AnimalHistory implements Idable{
 
     private int id;
     private String animal;
