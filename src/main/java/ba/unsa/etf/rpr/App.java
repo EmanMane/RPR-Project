@@ -20,7 +20,7 @@ import java.util.Stack;
 public class App {
     public static void main(String[] args) {
 
-        AnimalDao dao = new AnimalDaoSQLImpl() ;
+        AnimalDao dao = new AnimalDaoSQLImpl();
 
         Habitat habitat = new Habitat();
         habitat.setId(2);
