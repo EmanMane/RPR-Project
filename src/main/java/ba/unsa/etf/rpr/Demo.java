@@ -19,9 +19,9 @@ public class Demo {
         //When adding identical object into table Too many connections exception is thrown
         x=dao.add(x);
 
-        y.setId(26); //id must not be duplicate
+        /*y.setId(26); //id must not be duplicate
         y.setName("Kukurus");
         //When adding identical object into table Too many connections exception is thrown
-        y=dao.add(y);
+        y=dao.add(y);*/
     }
 }
