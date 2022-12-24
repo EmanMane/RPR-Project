@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Added properties for database connection">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="DoubleButtonTableCellFactory implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MainFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/home-layout.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +53,16 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/User/Desktop/JavaProjekti/javafx-sdk-19/lib",
+    "last_opened_file_path": "C:/Users/User/Desktop/quote-maker-main",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\JavaProjekti\RPR-Project\src\main\resources\fxml" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -62,10 +70,24 @@
       <recent name="ba.unsa.etf.rpr.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFX">
+  <component name="RunManager" selected="Application.AppFX">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.App" />
       <module name="RPR-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.AppFX" />
+      <module name="RPR-Project" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\User\Desktop\JavaProjekti\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
@@ -89,28 +111,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.MainFX" />
-      <module name="RPR-Project" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\User\Desktop\JavaProjekti\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.AppFX" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.MainFX" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainFX" />
+        <item itemvalue="Application.AppFX" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.App" />
       </list>
@@ -133,28 +141,12 @@
       <workItem from="1670833009272" duration="3079000" />
       <workItem from="1670886638089" duration="509000" />
       <workItem from="1671437210979" duration="248000" />
-      <workItem from="1671438152215" duration="3017000" />
-    </task>
-    <task id="LOCAL-00001" summary="Init Commit">
-      <created>1670401920559</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1670401920559</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Dao created">
-      <created>1670402936302</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1670402936302</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ZooHabitats created">
-      <created>1670403508236</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1670403508236</updated>
+      <workItem from="1671438152215" duration="3774000" />
+      <workItem from="1671872578001" duration="9344000" />
+      <workItem from="1671883033304" duration="15000" />
+      <workItem from="1671883203148" duration="1201000" />
+      <workItem from="1671888734560" duration="1164000" />
+      <workItem from="1671896952763" duration="140000" />
     </task>
     <task id="LOCAL-00004" summary="ZooHabitats renamed">
       <created>1670495128421</created>
@@ -317,7 +309,189 @@
       <option name="project" value="LOCAL" />
       <updated>1671438751083</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added Idable Interface">
+      <created>1671441355901</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1671441355901</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Implemented Ideable onto Habitat">
+      <created>1671441461481</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1671441461481</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Implemented Ideable onto AnimalHistory">
+      <created>1671441606627</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1671441606627</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Implemented Ideable onto Animal">
+      <created>1671441630567</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1671441630567</updated>
+    </task>
+    <task id="LOCAL-00031" summary="refactor column drop">
+      <created>1671873101918</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1671873101918</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added exception throw in DAO">
+      <created>1671873320955</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1671873320955</updated>
+    </task>
+    <task id="LOCAL-00033" summary="DaoFactory for singleton implementation created">
+      <created>1671873595776</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1671873595776</updated>
+    </task>
+    <task id="LOCAL-00034" summary="DaoFactory implemented">
+      <created>1671873791829</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1671873791829</updated>
+    </task>
+    <task id="LOCAL-00035" summary="AnimalException created">
+      <created>1671873809291</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1671873809291</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Abstract DAO created">
+      <created>1671874127325</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671874127325</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Abstract DAO implemented">
+      <created>1671874146123</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1671874146123</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added random animal method">
+      <created>1671874362434</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1671874362434</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Refactored AnimalDaoSQLImpl.java for MySQL implementation">
+      <created>1671874914523</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1671874914523</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Refactored HabitatDaoSQLImpl.java for MySQL implementation">
+      <created>1671875551623</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1671875551623</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added exception throw in AnimalHistoryDao">
+      <created>1671875661471</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1671875661471</updated>
+    </task>
+    <task id="LOCAL-00042" summary="AnimalHistory small changes">
+      <created>1671876137939</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1671876137939</updated>
+    </task>
+    <task id="LOCAL-00043" summary="AnimalHistoryDaoSQLImpl refactor">
+      <created>1671876220067</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1671876220067</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Animal Manager creation">
+      <created>1671879193710</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1671879193710</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Animal Manager implementation">
+      <created>1671879210118</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1671879210118</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Animal Manager small fix">
+      <created>1671879232044</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1671879232044</updated>
+    </task>
+    <task id="LOCAL-00047" summary="HabitatManager creation">
+      <created>1671879312430</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1671879312430</updated>
+    </task>
+    <task id="LOCAL-00048" summary="HabitatManager implementation">
+      <created>1671879448070</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1671879448070</updated>
+    </task>
+    <task id="LOCAL-00049" summary="AnimalController creation">
+      <created>1671879853296</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1671879853296</updated>
+    </task>
+    <task id="LOCAL-00050" summary="DoubleButtonCellFactory creation">
+      <created>1671880028906</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1671880028907</updated>
+    </task>
+    <task id="LOCAL-00051" summary="DoubleButtonTableCellFactory creation">
+      <created>1671880141978</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1671880141978</updated>
+    </task>
+    <task id="LOCAL-00052" summary="DoubleButtonTableCellFactory implementation">
+      <created>1671880163785</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1671880163785</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,31 +509,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init Commit" />
-    <MESSAGE value="Dao created" />
-    <MESSAGE value="ZooHabitats created" />
-    <MESSAGE value="ZooHabitats renamed" />
-    <MESSAGE value="ZooHabitats update" />
-    <MESSAGE value="Animal created" />
-    <MESSAGE value="AnimalHistory created" />
-    <MESSAGE value="HabitatDao created" />
-    <MESSAGE value="AnimalDao created" />
-    <MESSAGE value="AnimalHistoryDao created" />
-    <MESSAGE value="AnimalDaoSQL created" />
-    <MESSAGE value="AnimalDaoSQL update" />
-    <MESSAGE value="HabitatDaoSQL update" />
-    <MESSAGE value="AnimalHistoryDaoSQL update" />
-    <MESSAGE value="Animal function fix" />
-    <MESSAGE value="Habitat update" />
-    <MESSAGE value="Animal removed date of creation" />
-    <MESSAGE value="Small changes in SQL implementation files" />
-    <MESSAGE value="Created App Class" />
-    <MESSAGE value="Fix for tables Animals and Habitats and small implementation" />
-    <MESSAGE value="App output edit" />
-    <MESSAGE value="AnimalHistory Fix" />
-    <MESSAGE value="Demo class for checking methods" />
-    <MESSAGE value="Demo and App fixes" />
-    <MESSAGE value="Added properties for database connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added properties for database connection" />
+    <MESSAGE value="Implemented Ideable onto Habitat" />
+    <MESSAGE value="Implemented Ideable onto AnimalHistory" />
+    <MESSAGE value="Implemented Ideable onto Animal" />
+    <MESSAGE value="refactor column drop" />
+    <MESSAGE value="Added exception throw in DAO" />
+    <MESSAGE value="DaoFactory for singleton implementation created" />
+    <MESSAGE value="DaoFactory implemented" />
+    <MESSAGE value="AnimalException created" />
+    <MESSAGE value="Abstract DAO created" />
+    <MESSAGE value="Abstract DAO implemented" />
+    <MESSAGE value="Added random animal method" />
+    <MESSAGE value="Refactored AnimalDaoSQLImpl.java for MySQL implementation" />
+    <MESSAGE value="Refactored HabitatDaoSQLImpl.java for MySQL implementation" />
+    <MESSAGE value="Added exception throw in AnimalHistoryDao" />
+    <MESSAGE value="AnimalHistory small changes" />
+    <MESSAGE value="AnimalHistoryDaoSQLImpl refactor" />
+    <MESSAGE value="Animal Manager creation" />
+    <MESSAGE value="Animal Manager implementation" />
+    <MESSAGE value="Animal Manager small fix" />
+    <MESSAGE value="HabitatManager creation" />
+    <MESSAGE value="HabitatManager implementation" />
+    <MESSAGE value="AnimalController creation" />
+    <MESSAGE value="DoubleButtonCellFactory creation" />
+    <MESSAGE value="DoubleButtonTableCellFactory creation" />
+    <MESSAGE value="DoubleButtonTableCellFactory implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="DoubleButtonTableCellFactory implementation" />
   </component>
 </project>

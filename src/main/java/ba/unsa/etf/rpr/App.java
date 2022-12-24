@@ -20,20 +20,20 @@ import java.util.Stack;
 public class App {
     public static void main(String[] args) {
 
-        AnimalDao dao = new AnimalDaoSQLImpl();
-
-        Habitat habitat = new Habitat();
-        habitat.setId(2);
-        habitat.setName("Zivotinje");
-        ArrayList<Animal> animalsByHabitats = new ArrayList<Animal>(dao.searchByHabitat(habitat));
-        System.out.println("Treba ispisati zivotinje u drugom habitatu: ");
-        animalsByHabitats.forEach(q -> System.out.println(q.getAnimal()));
-
-
-        System.out.println("\nZivotinja sa inside word \"in\": \n|  ID  |  Animal  |\n-------------------");
-        ArrayList<Animal> animals = new ArrayList<Animal>(dao.searchByType("in"));
-        for (Animal a : animals) {
-            System.out.println(a.getId() + " " + a.getAnimal());
-        }
+//        AnimalDao dao = new AnimalDaoSQLImpl();
+//
+//        Habitat habitat = new Habitat();
+//        habitat.setId(2);
+//        habitat.setName("Zivotinje");
+//        ArrayList<Animal> animalsByHabitats = new ArrayList<Animal>(dao.searchByHabitat(habitat));
+//        System.out.println("Treba ispisati zivotinje u drugom habitatu: ");
+//        animalsByHabitats.forEach(q -> System.out.println(q.getAnimal()));
+//
+//
+//        System.out.println("\nZivotinja sa inside word \"in\": \n|  ID  |  Animal  |\n-------------------");
+//        ArrayList<Animal> animals = new ArrayList<Animal>(dao.searchByType("in"));
+//        for (Animal a : animals) {
+//            System.out.println(a.getId() + " " + a.getAnimal());
+//        }
     }
 }
