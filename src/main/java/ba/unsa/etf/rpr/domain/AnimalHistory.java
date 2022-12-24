@@ -10,7 +10,6 @@ public class AnimalHistory implements Idable{
 
     private int id;
     private String animal;
-    private Habitat habitat;
     private Date dateLeft;
 
     public int getId() {
@@ -29,14 +28,6 @@ public class AnimalHistory implements Idable{
         this.animal = animal;
     }
 
-    public Habitat getHabitat() {
-        return habitat;
-    }
-
-    public void setHabitat(Habitat habitat) {
-        this.habitat = habitat;
-    }
-
     public Date getDateLeft() {
         return dateLeft;
     }
@@ -50,7 +41,6 @@ public class AnimalHistory implements Idable{
         return "Animal{" +
                 "id=" + id +
                 ", animal='" + animal + '\'' +
-                ", habitat=" + habitat +
                 ", date left=" + dateLeft +
                 '}';
     }
@@ -65,6 +55,6 @@ public class AnimalHistory implements Idable{
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, animal, habitat, dateLeft);
+        return Objects.hash(id, animal, dateLeft);
     }
 }
