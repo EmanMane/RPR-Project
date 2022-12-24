@@ -40,13 +40,13 @@ public class AnimalManager {
     }
 
     public Animal randomAnimal() throws AnimalException{
-        Animal q = DaoFactory.animalDao().randomAnimal();
+        Animal a = DaoFactory.animalDao().randomAnimal();
         // save animal into history
         AnimalHistory history = new AnimalHistory();
-        history.setAnimal(q);
+        history.setAnimal(a);
         DaoFactory.animalHistoryDao().add(history);
 
-        return q;
+        return a;
     }
 
 }
