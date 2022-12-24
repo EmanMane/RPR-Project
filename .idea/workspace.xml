@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="DoubleButtonTableCellFactory implementation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MainFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/home-layout.fxml" beforeDir="false" />
-    </list>
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="minor changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/User/Desktop/quote-maker-main",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/quote-maker-main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\JavaProjekti\RPR-Project\src\main\resources\fxml" />
@@ -147,69 +137,7 @@
       <workItem from="1671883203148" duration="1201000" />
       <workItem from="1671888734560" duration="1164000" />
       <workItem from="1671896952763" duration="140000" />
-    </task>
-    <task id="LOCAL-00004" summary="ZooHabitats renamed">
-      <created>1670495128421</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1670495128421</updated>
-    </task>
-    <task id="LOCAL-00005" summary="ZooHabitats update">
-      <created>1670495334439</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1670495334439</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Animal created">
-      <created>1670495661366</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1670495661366</updated>
-    </task>
-    <task id="LOCAL-00007" summary="AnimalHistory created">
-      <created>1670495803208</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1670495803208</updated>
-    </task>
-    <task id="LOCAL-00008" summary="HabitatDao created">
-      <created>1670496198750</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1670496198750</updated>
-    </task>
-    <task id="LOCAL-00009" summary="AnimalDao created">
-      <created>1670496544929</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1670496544930</updated>
-    </task>
-    <task id="LOCAL-00010" summary="AnimalHistoryDao created">
-      <created>1670496733990</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1670496733990</updated>
-    </task>
-    <task id="LOCAL-00011" summary="AnimalDaoSQL created">
-      <created>1670497408081</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1670497408081</updated>
-    </task>
-    <task id="LOCAL-00012" summary="AnimalDaoSQL update">
-      <created>1670497476992</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1670497476992</updated>
+      <workItem from="1671897482680" duration="497000" />
     </task>
     <task id="LOCAL-00013" summary="HabitatDaoSQL update">
       <created>1670497862818</created>
@@ -491,7 +419,70 @@
       <option name="project" value="LOCAL" />
       <updated>1671880163785</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="HomeController implementation">
+      <created>1671897673371</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897673371</updated>
+    </task>
+    <task id="LOCAL-00054" summary="AnimalController implementation">
+      <created>1671897718116</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897718116</updated>
+    </task>
+    <task id="LOCAL-00055" summary="HabitatController implementation">
+      <created>1671897750798</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897750798</updated>
+    </task>
+    <task id="LOCAL-00056" summary="AoUAnimalController implementation">
+      <created>1671897790870</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897790870</updated>
+    </task>
+    <task id="LOCAL-00057" summary="about fxml">
+      <created>1671897846375</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897846375</updated>
+    </task>
+    <task id="LOCAL-00058" summary="animal fxml">
+      <created>1671897855098</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897855098</updated>
+    </task>
+    <task id="LOCAL-00059" summary="aoeanimal fxml">
+      <created>1671897874379</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897874379</updated>
+    </task>
+    <task id="LOCAL-00060" summary="home fxml">
+      <created>1671897888322</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897888323</updated>
+    </task>
+    <task id="LOCAL-00061" summary="minor changes">
+      <created>1671897930040</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1671897930040</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,15 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented Ideable onto Habitat" />
-    <MESSAGE value="Implemented Ideable onto AnimalHistory" />
-    <MESSAGE value="Implemented Ideable onto Animal" />
-    <MESSAGE value="refactor column drop" />
-    <MESSAGE value="Added exception throw in DAO" />
-    <MESSAGE value="DaoFactory for singleton implementation created" />
-    <MESSAGE value="DaoFactory implemented" />
-    <MESSAGE value="AnimalException created" />
-    <MESSAGE value="Abstract DAO created" />
     <MESSAGE value="Abstract DAO implemented" />
     <MESSAGE value="Added random animal method" />
     <MESSAGE value="Refactored AnimalDaoSQLImpl.java for MySQL implementation" />
@@ -534,6 +516,15 @@
     <MESSAGE value="DoubleButtonCellFactory creation" />
     <MESSAGE value="DoubleButtonTableCellFactory creation" />
     <MESSAGE value="DoubleButtonTableCellFactory implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="DoubleButtonTableCellFactory implementation" />
+    <MESSAGE value="HomeController implementation" />
+    <MESSAGE value="AnimalController implementation" />
+    <MESSAGE value="HabitatController implementation" />
+    <MESSAGE value="AoUAnimalController implementation" />
+    <MESSAGE value="about fxml" />
+    <MESSAGE value="animal fxml" />
+    <MESSAGE value="aoeanimal fxml" />
+    <MESSAGE value="home fxml" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
 </project>
