@@ -9,7 +9,7 @@ import java.util.Objects;
 public class AnimalHistory implements Idable{
 
     private int id;
-    private String animal;
+    private Animal animal;
     private Date dateLeft;
 
     public int getId() {
@@ -20,11 +20,11 @@ public class AnimalHistory implements Idable{
         this.id = id;
     }
 
-    public String getAnimal() {
+    public Animal getAnimal() {
         return animal;
     }
 
-    public void setAnimal(String animal) {
+    public void setAnimal(Animal animal) {
         this.animal = animal;
     }
 
