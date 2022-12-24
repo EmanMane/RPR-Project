@@ -1,6 +1,8 @@
 package ba.unsa.etf.rpr.dao;
 
 import ba.unsa.etf.rpr.domain.AnimalHistory;
+import ba.unsa.etf.rpr.exceptions.AnimalException;
+
 import java.util.Date;
 import java.util.List;
 
@@ -17,5 +19,5 @@ public interface AnimalHistoryDao extends Dao<AnimalHistory> {
      * @param end end date
      * @return List of animals from history table
      */
-    List<AnimalHistory> getByDateRange(Date start, Date end);
+    List<AnimalHistory> getByDateRange(Date start, Date end) throws AnimalException;
 }
