@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="minor changes" />
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Login.fxml added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +82,7 @@
     <configuration name="AppFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.AppFX" />
       <module name="RPR-Project" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\User\Desktop\JavaProjekti\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\User\Desktop\JavaProjekti\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
@@ -137,42 +142,8 @@
       <workItem from="1671883203148" duration="1201000" />
       <workItem from="1671888734560" duration="1164000" />
       <workItem from="1671896952763" duration="140000" />
-      <workItem from="1671897482680" duration="497000" />
-    </task>
-    <task id="LOCAL-00013" summary="HabitatDaoSQL update">
-      <created>1670497862818</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1670497862818</updated>
-    </task>
-    <task id="LOCAL-00014" summary="AnimalHistoryDaoSQL update">
-      <created>1670498433019</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1670498433019</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Animal function fix">
-      <created>1670499292178</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1670499292178</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Habitat update">
-      <created>1670504294996</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1670504294996</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Animal removed date of creation">
-      <created>1670719201604</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1670719201604</updated>
+      <workItem from="1671897482680" duration="986000" />
+      <workItem from="1672043105196" duration="11064000" />
     </task>
     <task id="LOCAL-00018" summary="Small changes in SQL implementation files">
       <created>1670719744593</created>
@@ -482,7 +453,42 @@
       <option name="project" value="LOCAL" />
       <updated>1671897930040</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="minor changes">
+      <created>1671898336407</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1671898336407</updated>
+    </task>
+    <task id="LOCAL-00063" summary="added dependencies for fx">
+      <created>1672050716902</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1672050716902</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Login image upload">
+      <created>1672068894391</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1672068894391</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Login Controller added">
+      <created>1672068934020</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1672068934020</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Login.fxml added">
+      <created>1672068952627</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1672068952628</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,10 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Abstract DAO implemented" />
-    <MESSAGE value="Added random animal method" />
-    <MESSAGE value="Refactored AnimalDaoSQLImpl.java for MySQL implementation" />
-    <MESSAGE value="Refactored HabitatDaoSQLImpl.java for MySQL implementation" />
     <MESSAGE value="Added exception throw in AnimalHistoryDao" />
     <MESSAGE value="AnimalHistory small changes" />
     <MESSAGE value="AnimalHistoryDaoSQLImpl refactor" />
@@ -525,6 +527,10 @@
     <MESSAGE value="aoeanimal fxml" />
     <MESSAGE value="home fxml" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="added dependencies for fx" />
+    <MESSAGE value="Login image upload" />
+    <MESSAGE value="Login Controller added" />
+    <MESSAGE value="Login.fxml added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login.fxml added" />
   </component>
 </project>
