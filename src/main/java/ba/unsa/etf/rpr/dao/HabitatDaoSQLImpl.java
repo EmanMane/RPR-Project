@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * MySQL implementation of the DAO
+ * MySQLs implementation of the DAO
  * @author Eman Alibalić
  */
 public class HabitatDaoSQLImpl extends AbstractDao<Habitat> implements HabitatDao{
