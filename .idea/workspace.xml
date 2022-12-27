@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Login.fxml added">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="AppFX minor modifications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/HabitatDaoSQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/HabitatDaoSQLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +67,9 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ba.unsa.etf.rpr.dao" />
     </key>
   </component>
@@ -143,28 +151,7 @@
       <workItem from="1671888734560" duration="1164000" />
       <workItem from="1671896952763" duration="140000" />
       <workItem from="1671897482680" duration="986000" />
-      <workItem from="1672043105196" duration="11064000" />
-    </task>
-    <task id="LOCAL-00018" summary="Small changes in SQL implementation files">
-      <created>1670719744593</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1670719744593</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Small changes in SQL implementation files">
-      <created>1670720250664</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1670720250665</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Created App Class">
-      <created>1670720267020</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1670720267020</updated>
+      <workItem from="1672043105196" duration="23354000" />
     </task>
     <task id="LOCAL-00021" summary="Fix for tables Animals and Habitats and small implementation">
       <created>1670756277524</created>
@@ -488,7 +475,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672068952628</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="User class created">
+      <created>1672069120796</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1672069120796</updated>
+    </task>
+    <task id="LOCAL-00068" summary="small updates">
+      <created>1672069148187</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1672069148187</updated>
+    </task>
+    <task id="LOCAL-00069" summary="AppFX minor modifications">
+      <created>1672100079294</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1672100079294</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,9 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added exception throw in AnimalHistoryDao" />
-    <MESSAGE value="AnimalHistory small changes" />
-    <MESSAGE value="AnimalHistoryDaoSQLImpl refactor" />
     <MESSAGE value="Animal Manager creation" />
     <MESSAGE value="Animal Manager implementation" />
     <MESSAGE value="Animal Manager small fix" />
@@ -531,6 +536,9 @@
     <MESSAGE value="Login image upload" />
     <MESSAGE value="Login Controller added" />
     <MESSAGE value="Login.fxml added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login.fxml added" />
+    <MESSAGE value="User class created" />
+    <MESSAGE value="small updates" />
+    <MESSAGE value="AppFX minor modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="AppFX minor modifications" />
   </component>
 </project>
