@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.controllers.HomeController">
    <top>
       <MenuBar style="-fx-background-color: lightgray;" BorderPane.alignment="CENTER">
         <menus>
@@ -18,8 +18,8 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#openEditCategories" text="Categories" />
-              <MenuItem mnemonicParsing="false" onAction="#openEditQuotes" text="Quotes" />
+              <MenuItem mnemonicParsing="false" onAction="#openEditHabitats" text="Habitats" />
+              <MenuItem mnemonicParsing="false" onAction="#openEditAnimals" text="Animals" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
