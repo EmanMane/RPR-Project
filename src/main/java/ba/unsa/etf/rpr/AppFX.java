@@ -20,7 +20,6 @@ public class AppFX extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/login.fxml"));
         primaryStage.initStyle(StageStyle.UNDECORATED); //Adobe type Login (No resize)
-        primaryStage.setTitle("Zoo v1.0");
         primaryStage.setScene(new Scene(root, USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
         primaryStage.setResizable(false);
         primaryStage.show();
