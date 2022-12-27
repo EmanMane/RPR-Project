@@ -16,6 +16,10 @@ import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
  */
 
 public class AppFX extends Application {
+    /**
+     * start method is used to literally start the App
+     * with the first scene being composed through login.fxml
+     */
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/login.fxml"));
