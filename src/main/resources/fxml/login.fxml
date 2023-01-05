@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
@@ -8,26 +9,61 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.controllers.LoginController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.controllers.LoginController">
    <right>
-      <AnchorPane prefHeight="400.0" prefWidth="335.0" style="-fx-background-color: #ECECE7;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="400.0" prefWidth="227.0" style="-fx-background-color: #ECECE7;" stylesheets="@../CSS/button.css" BorderPane.alignment="CENTER">
          <children>
-            <Label fx:id="usernameTextLabel" layoutX="29.0" layoutY="125.0" text="Username:" />
-            <TextField fx:id="usernameTextField" layoutX="92.0" layoutY="121.0" prefHeight="26.0" prefWidth="213.0" />
-            <Label fx:id="passwordTextLabel" layoutX="29.0" layoutY="164.0" prefHeight="18.0" prefWidth="57.0" text="Password:" />
-            <Button fx:id="loginButton" layoutX="18.0" layoutY="262.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="26.0" prefWidth="299.0" text="Login" />
-            <Button fx:id="registerButton" layoutX="18.0" layoutY="298.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="299.0" text="Register" />
-            <Button fx:id="cancelButton" layoutX="18.0" layoutY="333.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="26.0" prefWidth="299.0" text="Cancel" />
-            <Label fx:id="loginMessageLabel" layoutX="72.0" layoutY="200.0" prefHeight="43.0" prefWidth="190.0" textAlignment="CENTER" textFill="#fc7474" wrapText="true" />
-            <PasswordField fx:id="passwordTextField" layoutX="93.0" layoutY="161.0" prefHeight="26.0" prefWidth="213.0" />
+            <TextField fx:id="usernameTextField" layoutX="13.0" layoutY="154.0" prefHeight="26.0" prefWidth="202.0" promptText="Username">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font></TextField>
+            <Button fx:id="cancelButton" layoutX="13.0" layoutY="365.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../CSS/button.css" text="ABORT" textFill="WHITE">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font></Button>
+            <PasswordField fx:id="passwordTextField" layoutX="13.0" layoutY="187.0" prefHeight="26.0" prefWidth="202.0" promptText="Password">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font></PasswordField>
+            <Hyperlink fx:id="registerLink" layoutX="73.0" layoutY="268.0" onAction="#registerLinkOnAction" prefHeight="24.0" prefWidth="80.0" text="Get a ZOO ID">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font>
+            </Hyperlink>
+            <Label fx:id="usernameTextLabel1" layoutX="64.0" layoutY="256.0" text="Not a member jet?">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="loginMessageLabel" layoutX="11.0" layoutY="291.0" maxHeight="86.0" maxWidth="202.0" minHeight="58.0" minWidth="202.0" prefHeight="58.0" prefWidth="202.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameTextLabel11" layoutX="22.0" layoutY="127.0" prefHeight="6.0" prefWidth="35.0" scaleX="1.5" scaleY="1.5" text="Sign in">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="115.0" fitWidth="200.0" layoutX="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jpeg/SanDiegoZooLogo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="loginButton" defaultButton="true" layoutX="13.0" layoutY="221.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="26.0" prefWidth="202.0" text="SIGN IN" textFill="WHITE">
+               <font>
+                  <Font name="Yu Gothic Light" size="12.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
    </right>
    <center>
       <AnchorPane prefHeight="400.0" prefWidth="170.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="400.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="400.0" fitWidth="199.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../jpeg/Login.jpg" />
                </image>
