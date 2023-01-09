@@ -47,7 +47,7 @@ public class User implements Idable{
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password=" + password + '\'' +
