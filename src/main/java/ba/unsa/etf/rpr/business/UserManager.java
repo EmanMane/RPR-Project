@@ -43,6 +43,22 @@ public class UserManager {
         }
     }
 
+    public boolean validateNewUser(String username) throws AnimalException{
+        if (username==null){
+            throw new AnimalException("No username!");
+        }
+        else {
+            List<User> x = new ArrayList<User>();
+            x = searchUser(username);
+            for (User u : x) {
+                if (u.getUsername().equals(username)) {
+                        return false;
+                }
+            }
+            return true;
+        }
+    }
+
     public void delete(int id) throws AnimalException{
         DaoFactory.userDao().delete(id);
     }
