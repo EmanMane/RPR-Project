@@ -28,7 +28,7 @@ public class HabitatController {
     @FXML
     public void initialize() {
         try {
-            refreshCategories();
+            refreshHabitats();
             habitatsList.getSelectionModel().selectedItemProperty().addListener((obs, o, n)->{
                 if (n != null){
                     habitatName.setText(n.getName());
@@ -57,7 +57,7 @@ public class HabitatController {
             Habitat cat = habitatsList.getSelectionModel().getSelectedItem();
             cat.setName(habitatName.getText());
             cat = manager.update(cat);
-            refreshCategories();
+            refreshHabitats();
         }catch (AnimalException e){
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
@@ -74,7 +74,7 @@ public class HabitatController {
         }
     }
 
-    private void refreshCategories() throws AnimalException{
+    private void refreshHabitats() throws AnimalException{
         try {
             habitatsList.setItems(FXCollections.observableList(manager.getAll()));
             habitatName.setText("");

@@ -18,7 +18,7 @@ import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
 
 public class HomeController {
 
-    public Label quoteLabel;
+    public Label animalLabel;
 
     private AnimalManager manager = new AnimalManager();
 
@@ -26,7 +26,7 @@ public class HomeController {
     public void initialize() {
         try {
             Animal q = manager.randomAnimal();
-            quoteLabel.setText(q.getAnimal());
+            animalLabel.setText(q.getAnimal());
         } catch (AnimalException e) {
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
@@ -36,6 +36,11 @@ public class HomeController {
         Platform.exit();
         System.exit(0);
     }
+
+    public void signOutApp(ActionEvent actionEvent){
+        openDialog("Login", "/fxml/login.fxml", new LoginController());
+    }
+
     public void openAbout(ActionEvent actionEvent){
         openDialog("About", "/fxml/about.fxml", null);
     }

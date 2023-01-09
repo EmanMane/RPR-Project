@@ -66,17 +66,17 @@ public class LoginController{
 
     public void goToHome() throws IOException {
         try {
-            ((Stage) usernameTextField.getScene().getWindow()).hide();
+            ((Stage) usernameTextField.getScene().getWindow()).close();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
             loader.setController(new HomeController());
             Stage homeStage = new Stage();
             homeStage.setScene(new Scene(loader.load(), USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
             homeStage.initStyle(StageStyle.UTILITY);
-            homeStage.setTitle("Edit Quote");
+            homeStage.setTitle("ZOO HOME");
             homeStage.show();
-            homeStage.setOnHiding(event -> {
-                ((Stage) usernameTextField.getScene().getWindow()).show();
-            });
+//            homeStage.setOnHiding(event -> {
+//                ((Stage) usernameTextField.getScene().getWindow()).show();
+//            });
         } catch (Exception e) {
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
