@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="End of the day commit">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="home fxml changes and login controller simplification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/register.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jpeg/Register.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jpeg/Register.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/animal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/animal.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,27 +154,7 @@
       <workItem from="1672043105196" duration="23354000" />
       <workItem from="1673251407310" duration="4148000" />
       <workItem from="1673279403966" duration="103000" />
-    </task>
-    <task id="LOCAL-00026" summary="Added properties for database connection">
-      <created>1671438751083</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1671438751083</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Added Idable Interface">
-      <created>1671441355901</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1671441355901</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Implemented Ideable onto Habitat">
-      <created>1671441461481</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1671441461481</updated>
+      <workItem from="1673522046727" duration="1788000" />
     </task>
     <task id="LOCAL-00029" summary="Implemented Ideable onto AnimalHistory">
       <created>1671441606627</created>
@@ -500,7 +478,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673227184661</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Register Window jpg update">
+      <created>1673522144319</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1673522144319</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Register Window fxml update">
+      <created>1673522156829</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1673522156829</updated>
+    </task>
+    <task id="LOCAL-00077" summary="home fxml changes and login controller simplification">
+      <created>1673522190460</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1673522190460</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,9 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AnimalController creation" />
-    <MESSAGE value="DoubleButtonCellFactory creation" />
-    <MESSAGE value="DoubleButtonTableCellFactory creation" />
     <MESSAGE value="DoubleButtonTableCellFactory implementation" />
     <MESSAGE value="HomeController implementation" />
     <MESSAGE value="AnimalController implementation" />
@@ -543,7 +539,10 @@
     <MESSAGE value="Register fxml compatible" />
     <MESSAGE value="User manager method to validate new user" />
     <MESSAGE value="End of the day commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of the day commit" />
+    <MESSAGE value="Register Window jpg update" />
+    <MESSAGE value="Register Window fxml update" />
+    <MESSAGE value="home fxml changes and login controller simplification" />
+    <option name="LAST_COMMIT_MESSAGE" value="home fxml changes and login controller simplification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

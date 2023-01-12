@@ -38,13 +38,13 @@ public class AnimalController {
 
     public TableColumn<Animal, String> idColumn;
     public TableColumn<Animal, String> animalColumn;
-    public TableColumn<Animal, Date> createdColumn;
+    public TableColumn<Animal, Date> habitatColumn;
     public TableColumn<Animal, Integer> actionColumn;
 
     public void initialize(){
         idColumn.setCellValueFactory(new PropertyValueFactory<Animal, String>("id"));
         animalColumn.setCellValueFactory(new PropertyValueFactory<Animal, String>("animal"));
-        createdColumn.setCellValueFactory(new PropertyValueFactory<Animal, Date>("created"));
+        habitatColumn.setCellValueFactory(new PropertyValueFactory<Animal, Date>("habitat"));
         actionColumn.setCellValueFactory(new PropertyValueFactory<Animal, Integer>("id"));
 
         actionColumn.setCellFactory(new DoubleButtonCellFactory(editEvent -> {
@@ -72,7 +72,7 @@ public class AnimalController {
     }
 
     /**
-     * Event handler for deletion of animal. It has confirm box before deletion
+     * Event handler for deletion of animal. It has "confirm" box before deletion
      * @param animalId
      */
     public void deleteAnimal(Integer animalId){
