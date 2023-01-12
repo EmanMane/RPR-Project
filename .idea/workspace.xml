@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="User manager method to validate new user">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="End of the day commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HabitatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HabitatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/habitat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/habitat.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jpeg/Register.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jpeg/Register.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,11 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -150,13 +154,8 @@
       <workItem from="1671896952763" duration="140000" />
       <workItem from="1671897482680" duration="986000" />
       <workItem from="1672043105196" duration="23354000" />
-    </task>
-    <task id="LOCAL-00025" summary="Demo and App fixes">
-      <created>1670785682436</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1670785682436</updated>
+      <workItem from="1673251407310" duration="4148000" />
+      <workItem from="1673279403966" duration="103000" />
     </task>
     <task id="LOCAL-00026" summary="Added properties for database connection">
       <created>1671438751083</created>
@@ -494,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673225538989</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="End of the day commit">
+      <created>1673227184661</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1673227184661</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HabitatManager implementation" />
     <MESSAGE value="AnimalController creation" />
     <MESSAGE value="DoubleButtonCellFactory creation" />
     <MESSAGE value="DoubleButtonTableCellFactory creation" />
@@ -537,6 +542,36 @@
     <MESSAGE value="Register controller made functional" />
     <MESSAGE value="Register fxml compatible" />
     <MESSAGE value="User manager method to validate new user" />
-    <option name="LAST_COMMIT_MESSAGE" value="User manager method to validate new user" />
+    <MESSAGE value="End of the day commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of the day commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java</url>
+          <line>51</line>
+          <properties class="ba.unsa.etf.rpr.controllers.LoginController" method="validateLogin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/business/UserManager.java</url>
+          <line>27</line>
+          <properties class="ba.unsa.etf.rpr.business.UserManager" method="validateUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

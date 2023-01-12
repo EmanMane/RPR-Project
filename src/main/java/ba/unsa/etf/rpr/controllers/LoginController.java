@@ -82,6 +82,20 @@ public class LoginController{
         }
     }
 
+//    private void goToHome(){
+//        try {
+//            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
+//            loader.setController(new HomeController());
+//            Stage stage = new Stage();
+//            stage.setScene(new Scene(loader.load(), USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
+//            stage.setTitle("Home");
+//            stage.initStyle(StageStyle.UTILITY);
+//            stage.show();
+//        }catch (Exception e){
+//            new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
+//        }
+//    }
+
     public void registerLinkOnAction() throws IOException{
         try {
             ((Stage) usernameTextField.getScene().getWindow()).hide();

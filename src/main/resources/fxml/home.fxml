@@ -14,7 +14,7 @@
           <Menu mnemonicParsing="false" text="File">
             <items>
               <MenuItem mnemonicParsing="false" onAction="#closeApp" text="Close" />
-                  <MenuItem mnemonicParsing="false" onAction="#closeApp" text="Sign Out" />
+                  <MenuItem mnemonicParsing="false" onAction="#signOutApp" text="Sign Out" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
