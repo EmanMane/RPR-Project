@@ -10,28 +10,28 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <center>
       <AnchorPane prefHeight="409.0" prefWidth="514.0" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane prefHeight="400.0" prefWidth="227.0" style="-fx-background-color: #ECECE7;" stylesheets="@../CSS/button.css">
+            <AnchorPane layoutY="-1.0" prefHeight="400.0" prefWidth="215.0" style="-fx-background-color: #ECECE7;" stylesheets="@../CSS/button.css">
                <children>
-                  <TextField fx:id="usernameTextField" layoutX="13.0" layoutY="154.0" prefHeight="26.0" prefWidth="202.0" promptText="Username">
+                  <TextField fx:id="usernameTextField" layoutX="13.0" layoutY="154.0" prefHeight="26.0" prefWidth="190.0" promptText="Username">
                      <font>
                         <Font name="Yu Gothic Light" size="12.0" />
                      </font>
                   </TextField>
-                  <Button fx:id="backButton" layoutX="13.0" layoutY="365.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../CSS/button.css" text="BACK" textFill="WHITE">
+                  <Button fx:id="backButton" layoutX="13.0" layoutY="365.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="26.0" prefWidth="190.0" stylesheets="@../CSS/button.css" text="BACK" textFill="WHITE">
                      <font>
                         <Font name="Yu Gothic Light" size="12.0" />
                      </font>
                   </Button>
-                  <PasswordField fx:id="passwordTextField1" layoutX="13.0" layoutY="187.0" prefHeight="26.0" prefWidth="202.0" promptText="Password">
+                  <PasswordField fx:id="passwordTextField1" layoutX="13.0" layoutY="187.0" prefHeight="26.0" prefWidth="190.0" promptText="Password">
                      <font>
                         <Font name="Yu Gothic Light" size="12.0" />
                      </font>
                   </PasswordField>
-                  <Label fx:id="registerMessageLabel" layoutX="12.0" layoutY="298.0" maxHeight="86.0" maxWidth="202.0" minHeight="58.0" minWidth="202.0" prefHeight="58.0" prefWidth="202.0" textAlignment="CENTER">
+                  <Label fx:id="registerMessageLabel" layoutX="13.0" layoutY="298.0" maxHeight="86.0" maxWidth="202.0" minHeight="58.0" minWidth="202.0" prefHeight="58.0" prefWidth="202.0" textAlignment="CENTER">
                      <font>
                         <Font name="Malgun Gothic Semilight" size="12.0" />
                      </font>
@@ -46,19 +46,19 @@
                         <Image url="@../jpeg/SanDiegoZooLogo.png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="registerButton" defaultButton="true" layoutX="13.0" layoutY="253.0" mnemonicParsing="false" onAction="#registerButtonOnAction" prefHeight="26.0" prefWidth="202.0" text="SIGN UP" textFill="WHITE">
+                  <Button fx:id="registerButton" defaultButton="true" layoutX="13.0" layoutY="253.0" mnemonicParsing="false" onAction="#registerButtonOnAction" prefHeight="26.0" prefWidth="190.0" text="SIGN UP" textFill="WHITE">
                      <font>
                         <Font name="Yu Gothic Light" size="12.0" />
                      </font>
                   </Button>
-                  <PasswordField fx:id="passwordTextField2" layoutX="13.0" layoutY="220.0" prefHeight="26.0" prefWidth="202.0" promptText="Password Confirmation">
+                  <PasswordField fx:id="passwordTextField2" layoutX="13.0" layoutY="220.0" prefHeight="26.0" prefWidth="190.0" promptText="Password Confirmation">
                      <font>
                         <Font name="Yu Gothic Light" size="12.0" />
                      </font>
                   </PasswordField>
                </children>
             </AnchorPane>
-            <ImageView fitHeight="407.0" fitWidth="284.0" layoutX="229.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="400.0" fitWidth="207.0" layoutX="216.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../jpeg/Register.jpg" />
                </image>
