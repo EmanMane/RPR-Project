@@ -42,6 +42,13 @@ public class AnimalDaoSQLImpl extends AbstractDao<Animal> implements AnimalDao{
         item.put("id", object.getId());
         item.put("animal", object.getAnimal());
         item.put("habitat_id", object.getHabitat().getId());
+
+//ISPIS Provjera
+        for(Map.Entry m:item.entrySet()){
+            System.out.println(m.getKey()+" "+m.getValue());
+        }
+
+
         return item;
     }
 

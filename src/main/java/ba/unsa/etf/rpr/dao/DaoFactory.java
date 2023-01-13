@@ -3,7 +3,6 @@ package ba.unsa.etf.rpr.dao;
 public class DaoFactory {
     private static final HabitatDao habitatDao = new HabitatDaoSQLImpl();
     private static final AnimalDao animalDao = new AnimalDaoSQLImpl();
-    private static final AnimalHistoryDao animalHistoryDao = new AnimalHistoryDaoSQLImpl();
     private static final UserDao userDao = new UserDaoSQLImpl();
 
 
@@ -18,9 +17,6 @@ public class DaoFactory {
         return animalDao;
     }
 
-    public static AnimalHistoryDao animalHistoryDao(){
-        return animalHistoryDao;
-    }
     public static UserDao userDao(){
         return userDao;
     }

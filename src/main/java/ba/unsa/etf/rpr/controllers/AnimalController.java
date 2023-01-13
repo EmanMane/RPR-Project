@@ -95,7 +95,8 @@ public class AnimalController {
      */
     public void editAnimalScene(Integer animalId){
         try{
-            ((Stage)animalScreen.getScene().getWindow()).hide();
+            System.out.println("OK");
+            ((Stage)animalsTable.getScene().getWindow()).hide();
 
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/aoeanimal.fxml"));
             loader.setController(new AoUAnimalController(animalId));

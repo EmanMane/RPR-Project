@@ -3,40 +3,53 @@ package ba.unsa.etf.rpr.dao;
 import ba.unsa.etf.rpr.domain.Idable;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
 
+import java.io.Closeable;
+import java.io.IOException;
 import java.sql.*;
 import java.util.*;
 
 /**
  * Abstract class that implements core DAO CRUD methods for every entity
  *
- * @author Eman Alibalić
+ * @author Dino Keco
  */
-public abstract class AbstractDao<T extends Idable> implements Dao<T>{
-
-    private Connection connection;
+public abstract class AbstractDao<T extends Idable> implements Dao<T> {
+    private static Connection connection = null;
     private String tableName;
 
     public AbstractDao(String tableName) {
-        try{
-            this.tableName = tableName;
-            Properties p = new Properties();
-            p.load(ClassLoader.getSystemResource("application.properties").openStream());
-            String url = p.getProperty("db.connection_string");
-            String username = p.getProperty("db.username");
-            String password = p.getProperty("db.password");
-            this.connection = DriverManager.getConnection(url, username, password);
-        }catch (Exception e){
-            e.printStackTrace();
-            System.exit(0);
+        this.tableName = tableName;
+        createConnection();
+    }
+
+    private static void createConnection(){
+        if(AbstractDao.connection==null) {
+            try {
+                Properties p = new Properties();
+                p.load(ClassLoader.getSystemResource("application.properties").openStream());
+                String url = p.getProperty("db.connection_string");
+                String username = p.getProperty("db.username");
+                String password = p.getProperty("db.password");
+                AbstractDao.connection = DriverManager.getConnection(url, username, password);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }finally {
+                Runtime.getRuntime().addShutdownHook(new Thread(){
+                    @Override
+                    public void run(){
+                        try {
+                            connection.close();
+                        } catch (SQLException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+            }
         }
     }
 
-    public Connection getConnection(){
-        return this.connection;
-    }
-
-    public void setConnection(Connection connection){
-        this.connection = connection;
+    public static Connection getConnection(){
+        return AbstractDao.connection;
     }
 
     /**
@@ -81,7 +94,7 @@ public abstract class AbstractDao<T extends Idable> implements Dao<T>{
         builder.append("INSERT INTO ").append(tableName);
         builder.append(" (").append(columns.getKey()).append(") ");
         builder.append("VALUES (").append(columns.getValue()).append(")");
-
+        System.out.println(builder);
         try{
             PreparedStatement stmt = getConnection().prepareStatement(builder.toString(), Statement.RETURN_GENERATED_KEYS);
             // bind params. IMPORTANT treeMap is used to keep columns sorted so params are bind correctly

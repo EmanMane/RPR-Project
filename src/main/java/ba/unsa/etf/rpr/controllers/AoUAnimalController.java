@@ -25,6 +25,10 @@ public class AoUAnimalController {
     // helper components
     @FXML
     public GridPane aouAnimalPane;
+    @FXML
+    private Button cancelButton;
+    @FXML
+    private Button saveButton;
 
     // managers
     private final HabitatManager habitatManager = new HabitatManager();
@@ -62,7 +66,7 @@ public class AoUAnimalController {
      * @param event
      */
     public void cancelAoUForm(ActionEvent event){
-        aouAnimalPane.getScene().getWindow().hide();
+        cancelButton.getScene().getWindow().hide();
     }
 
     /**
@@ -78,7 +82,7 @@ public class AoUAnimalController {
             }else{
                 animalManager.add(q);
             }
-            aouAnimalPane.getScene().getWindow().hide();
+            saveButton.getScene().getWindow().hide();
         }catch (AnimalException e){
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }

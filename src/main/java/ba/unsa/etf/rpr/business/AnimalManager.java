@@ -2,10 +2,8 @@ package ba.unsa.etf.rpr.business;
 
 import ba.unsa.etf.rpr.dao.DaoFactory;
 import ba.unsa.etf.rpr.domain.Animal;
-import ba.unsa.etf.rpr.domain.AnimalHistory;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
 
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -37,16 +35,6 @@ public class AnimalManager {
 
     public Animal add(Animal q) throws AnimalException{
         return DaoFactory.animalDao().add(q);
-    }
-
-    public Animal randomAnimal() throws AnimalException{
-        Animal a = DaoFactory.animalDao().randomAnimal();
-        // save animal into history
-        AnimalHistory history = new AnimalHistory();
-        history.setAnimal(a);
-        DaoFactory.animalHistoryDao().add(history);
-
-        return a;
     }
 
 }

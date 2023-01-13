@@ -22,16 +22,6 @@ public class HomeController {
 
     private AnimalManager manager = new AnimalManager();
 
-    @FXML
-    public void initialize() {
-        try {
-            Animal q = manager.randomAnimal();
-            animalLabel.setText(q.getAnimal());
-        } catch (AnimalException e) {
-            new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
-        }
-    }
-
     public void closeApp(ActionEvent actionEvent){
         Platform.exit();
         System.exit(0);

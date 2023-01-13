@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="home fxml changes and login controller simplification">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="animal fxml fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/business/AnimalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/business/AnimalManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/business/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/business/UserManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AoUAnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AoUAnimalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalDaoSQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalDaoSQLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AnimalHistoryDaoSQLImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/domain/AnimalHistory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/animal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/animal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/aoeanimal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/aoeanimal.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +166,7 @@
       <workItem from="1672043105196" duration="23354000" />
       <workItem from="1673251407310" duration="4148000" />
       <workItem from="1673279403966" duration="103000" />
-      <workItem from="1673522046727" duration="1788000" />
-    </task>
-    <task id="LOCAL-00029" summary="Implemented Ideable onto AnimalHistory">
-      <created>1671441606627</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1671441606627</updated>
+      <workItem from="1673522046727" duration="11760000" />
     </task>
     <task id="LOCAL-00030" summary="Implemented Ideable onto Animal">
       <created>1671441630567</created>
@@ -499,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673522190460</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="animal fxml fix">
+      <created>1673524078634</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1673524078634</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DoubleButtonTableCellFactory implementation" />
     <MESSAGE value="HomeController implementation" />
     <MESSAGE value="AnimalController implementation" />
     <MESSAGE value="HabitatController implementation" />
@@ -542,34 +553,25 @@
     <MESSAGE value="Register Window jpg update" />
     <MESSAGE value="Register Window fxml update" />
     <MESSAGE value="home fxml changes and login controller simplification" />
-    <option name="LAST_COMMIT_MESSAGE" value="home fxml changes and login controller simplification" />
+    <MESSAGE value="animal fxml fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="animal fxml fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java</url>
-          <line>51</line>
-          <properties class="ba.unsa.etf.rpr.controllers.LoginController" method="validateLogin">
+          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java</url>
+          <line>121</line>
+          <properties class="ba.unsa.etf.rpr.controllers.AnimalController" method="addAnimal">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/business/UserManager.java</url>
-          <line>27</line>
-          <properties class="ba.unsa.etf.rpr.business.UserManager" method="validateUser">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="21" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
