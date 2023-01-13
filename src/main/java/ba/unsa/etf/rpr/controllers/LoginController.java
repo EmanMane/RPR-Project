@@ -41,12 +41,12 @@ public class LoginController{
 
 
     public void loginButtonOnAction(ActionEvent event) throws AnimalException, IOException {
-        //if(usernameTextField.getText().isEmpty() && passwordTextField.getText().isEmpty()){
-        //    loginMessageLabel.setText("No input!");
-        //}
-        //else if(validateLogin()){
+        if(usernameTextField.getText().isEmpty() && passwordTextField.getText().isEmpty()){
+            loginMessageLabel.setText("No input!");
+        }
+        else if(validateLogin()){
             goToHome();
-        //}
+        }
     }
 
     public boolean validateLogin() throws AnimalException, IOException {
@@ -73,7 +73,7 @@ public class LoginController{
             homeStage.setScene(new Scene(loader.load(), USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
             homeStage.initStyle(StageStyle.UTILITY);
             homeStage.setTitle("ZOO HOME");
-            //homeStage.setMaximized(true); //FULLSCREEN
+            homeStage.setMaximized(true); //FULLSCREEN
             homeStage.show();
 //            homeStage.setOnHiding(event -> {
 //                ((Stage) usernameTextField.getScene().getWindow()).show();
