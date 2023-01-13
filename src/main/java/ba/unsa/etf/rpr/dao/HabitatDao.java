@@ -7,4 +7,5 @@ import ba.unsa.etf.rpr.domain.Habitat;
  * @author Eman Alibalić
  */
 public interface HabitatDao extends Dao<Habitat> {
+    int findFirstFreeID();
 }
