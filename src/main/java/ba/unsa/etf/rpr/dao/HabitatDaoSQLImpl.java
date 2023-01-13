@@ -36,4 +36,20 @@ public class HabitatDaoSQLImpl extends AbstractDao<Habitat> implements HabitatDa
         row.put("name", object.getName());
         return row;
     }
+
+    public int findFirstFreeID(){
+        try {
+            PreparedStatement stmt = getConnection().prepareStatement("SELECT MIN(t1.id + 1) AS nextID\n" +
+                    "        FROM habitats t1\n" +
+                    "        LEFT JOIN habitats t2\n" +
+                    "        ON t1.id + 1 = t2.id\n" +
+                    "        WHERE t2.id IS NULL;");
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            return rs.getInt(1);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 }
