@@ -42,20 +42,13 @@ public class AnimalDaoSQLImpl extends AbstractDao<Animal> implements AnimalDao{
         item.put("id", object.getId());
         item.put("animal", object.getAnimal());
         item.put("habitat_id", object.getHabitat().getId());
-
-//ISPIS Provjera
-        for(Map.Entry m:item.entrySet()){
-            System.out.println(m.getKey()+" "+m.getValue());
-        }
-
-
         return item;
     }
 
     /**
      * @param text search string for animals
      * @return list of animals
-     * @author ahajro2
+     * @author Eman Alibalic
      */
 
     @Override
@@ -67,7 +60,7 @@ public class AnimalDaoSQLImpl extends AbstractDao<Animal> implements AnimalDao{
     /**
      * @param habitat search string for animals
      * @return list of animals
-     * @author ahajro2
+     * @author Eman Alibalic
      */
     @Override
     public List<Animal> searchByHabitat(Habitat habitat) throws AnimalException{
@@ -82,4 +75,21 @@ public class AnimalDaoSQLImpl extends AbstractDao<Animal> implements AnimalDao{
     public Animal randomAnimal() throws AnimalException {
         return executeQueryUnique("SELECT * FROM animals ORDER BY RAND() LIMIT 1", null);
     }
+
+    public int findFirstFreeID(){
+        try {
+            PreparedStatement stmt = getConnection().prepareStatement("SELECT MIN(t1.id + 1) AS nextID\n" +
+                    "        FROM animals t1\n" +
+                    "        LEFT JOIN animals t2\n" +
+                    "        ON t1.id + 1 = t2.id\n" +
+                    "        WHERE t2.id IS NULL;");
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            return rs.getInt(1);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
 }

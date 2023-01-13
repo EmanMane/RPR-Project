@@ -11,7 +11,7 @@ import java.util.*;
 /**
  * Abstract class that implements core DAO CRUD methods for every entity
  *
- * @author Dino Keco
+ * @author Eman Alibalic
  */
 public abstract class AbstractDao<T extends Idable> implements Dao<T> {
     private static Connection connection = null;
@@ -100,7 +100,7 @@ public abstract class AbstractDao<T extends Idable> implements Dao<T> {
             // bind params. IMPORTANT treeMap is used to keep columns sorted so params are bind correctly
             int counter = 1;
             for (Map.Entry<String, Object> entry: row.entrySet()) {
-                if (entry.getKey().equals("id")) continue; // skip ID
+                //if (entry.getKey().equals("id")) continue; // skip ID
                 stmt.setObject(counter, entry.getValue());
                 counter++;
             }
@@ -119,22 +119,24 @@ public abstract class AbstractDao<T extends Idable> implements Dao<T> {
     public T update(T item) throws AnimalException{
         Map<String, Object> row = object2row(item);
         String updateColumns = prepareUpdateParts(row);
+
         StringBuilder builder = new StringBuilder();
         builder.append("UPDATE ")
                 .append(tableName)
                 .append(" SET ")
                 .append(updateColumns)
-                .append(" WHERE id = ?");
+                .append(" WHERE id = ?;");
 
         try{
             PreparedStatement stmt = getConnection().prepareStatement(builder.toString());
             int counter = 1;
             for (Map.Entry<String, Object> entry: row.entrySet()) {
-                if (entry.getKey().equals("id")) continue; // skip ID
+                //if (entry.getKey().equals("id")) continue; // skip ID
                 stmt.setObject(counter, entry.getValue());
                 counter++;
             }
             stmt.setObject(counter, item.getId());
+            System.out.println(stmt);
             stmt.executeUpdate();
             return item;
         }catch (SQLException e){
@@ -195,7 +197,7 @@ public abstract class AbstractDao<T extends Idable> implements Dao<T> {
         int counter = 0;
         for (Map.Entry<String, Object> entry: row.entrySet()) {
             counter++;
-            if (entry.getKey().equals("id")) continue; //skip insertion of id due autoincrement
+            //if (entry.getKey().equals("id")) continue; //skip insertion of id due autoincrement
             columns.append(entry.getKey());
             questions.append("?");
             if (row.size() != counter) {
@@ -217,7 +219,7 @@ public abstract class AbstractDao<T extends Idable> implements Dao<T> {
         int counter = 0;
         for (Map.Entry<String, Object> entry: row.entrySet()) {
             counter++;
-            if (entry.getKey().equals("id")) continue; //skip update of id due where clause
+            //if (entry.getKey().equals("id")) continue; //skip update of id due where clause
             columns.append(entry.getKey()).append("= ?");
             if (row.size() != counter) {
                 columns.append(",");

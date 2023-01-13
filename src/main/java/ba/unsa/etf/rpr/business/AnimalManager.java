@@ -36,5 +36,7 @@ public class AnimalManager {
     public Animal add(Animal q) throws AnimalException{
         return DaoFactory.animalDao().add(q);
     }
-
+    public int findFirstFreeID() throws AnimalException{
+        return DaoFactory.animalDao().findFirstFreeID();
+    }
 }

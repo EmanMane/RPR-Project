@@ -34,4 +34,6 @@ public interface AnimalDao extends Dao<Animal>{
      * @throws AnimalException
      */
     Animal randomAnimal() throws AnimalException;
+
+    int findFirstFreeID();
 }

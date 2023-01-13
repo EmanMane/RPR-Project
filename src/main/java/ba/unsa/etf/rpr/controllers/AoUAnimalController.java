@@ -80,9 +80,10 @@ public class AoUAnimalController {
                 q.setId(editAnimalId);
                 animalManager.update(q);
             }else{
+                q.setId(animalManager.findFirstFreeID());
                 animalManager.add(q);
             }
-            saveButton.getScene().getWindow().hide();
+            cancelButton.getScene().getWindow().hide();
         }catch (AnimalException e){
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
