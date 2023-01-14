@@ -3,7 +3,7 @@ package ba.unsa.etf.rpr.domain;
 import java.util.Objects;
 
 /**
- * List of possible categories for habitat
+ * bean for habitat
  * @author Eman Alibalić
  */
 public class Habitat implements Idable{
@@ -29,10 +29,7 @@ public class Habitat implements Idable{
 
     @Override
     public String toString(){
-        return "Habitat{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+        return name;
     }
 
     @Override
