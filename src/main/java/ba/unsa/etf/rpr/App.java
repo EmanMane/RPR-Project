@@ -25,7 +25,7 @@ import java.util.stream.Stream;
  * CLI (Command Line Interface) implementation in following class
  * Even though this type of presentation layer (called CLI) is becoming past tense for GUI apps
  * it's good to see how you can manipulate data through command line and database also
- * @author Eman Alibalic
+ * @author Eman Alibalić
  */
 public class App {
     /**
