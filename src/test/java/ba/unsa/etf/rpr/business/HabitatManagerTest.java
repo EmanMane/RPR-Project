@@ -45,7 +45,6 @@ class HabitatManagerTest {
     /**
      * In this method we will test validateHabitatName(String name) for correct and incorrect passed parameters
      */
-
     @Test
     void validateHabitatName() throws AnimalException {
         String correctName = "Habitat2";
