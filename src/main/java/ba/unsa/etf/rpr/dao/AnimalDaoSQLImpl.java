@@ -15,8 +15,20 @@ import java.util.TreeMap;
  */
 public class AnimalDaoSQLImpl extends AbstractDao<Animal> implements AnimalDao{
 
-    public AnimalDaoSQLImpl() {
+    private static  AnimalDaoSQLImpl instance = null;
+    private AnimalDaoSQLImpl() {
         super("animals");
+    }
+
+    public static AnimalDaoSQLImpl getInstance(){
+        if(instance==null)
+            instance = new AnimalDaoSQLImpl();
+        return instance;
+    }
+
+    public static void removeInstance(){
+        if(instance!=null)
+            instance=null;
     }
 
     @Override
