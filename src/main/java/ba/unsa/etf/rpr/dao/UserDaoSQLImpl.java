@@ -1,17 +1,13 @@
 package ba.unsa.etf.rpr.dao;
 
-import ba.unsa.etf.rpr.domain.Animal;
-import ba.unsa.etf.rpr.domain.Habitat;
 import ba.unsa.etf.rpr.domain.User;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static java.lang.Boolean.parseBoolean;
 
 /**
  * MySQL Implementation of DAO
@@ -19,8 +15,20 @@ import static java.lang.Boolean.parseBoolean;
  */
 public class UserDaoSQLImpl extends AbstractDao<User> implements UserDao{
 
-    public UserDaoSQLImpl() {
+    private static  UserDaoSQLImpl instance = null;
+    private UserDaoSQLImpl() {
         super("users");
+    }
+
+    public static UserDaoSQLImpl getInstance(){
+        if(instance==null)
+            instance = new UserDaoSQLImpl();
+        return instance;
+    }
+
+    public static void removeInstance(){
+        if(instance!=null)
+            instance=null;
     }
 
     @Override
