@@ -104,12 +104,15 @@ public abstract class AbstractDao<T extends Idable> implements Dao<T> {
                 stmt.setObject(counter, entry.getValue());
                 counter++;
             }
+
             stmt.executeUpdate();
 
             ResultSet rs = stmt.getGeneratedKeys();
+            System.out.println("OK");
             rs.next(); // we know that there is one key
-            item.setId(rs.getInt(1)); //set id to return it back */
-
+            System.out.println("OK");
+            //item.setId(rs.getInt(1)); //set id to return it back */
+            System.out.println("OK");
             return item;
         }catch (SQLException e){
             throw new AnimalException(e.getMessage(), e);

@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Image edits">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="end of day commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/business/HabitatManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/business/HabitatManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/HabitatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/HabitatDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/HabitatDaoSQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/HabitatDaoSQLImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/dao/AbstractDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,56 +156,8 @@
       <workItem from="1672043105196" duration="23354000" />
       <workItem from="1673251407310" duration="4148000" />
       <workItem from="1673279403966" duration="103000" />
-      <workItem from="1673522046727" duration="27252000" />
-    </task>
-    <task id="LOCAL-00033" summary="DaoFactory for singleton implementation created">
-      <created>1671873595776</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1671873595776</updated>
-    </task>
-    <task id="LOCAL-00034" summary="DaoFactory implemented">
-      <created>1671873791829</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1671873791829</updated>
-    </task>
-    <task id="LOCAL-00035" summary="AnimalException created">
-      <created>1671873809291</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1671873809291</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Abstract DAO created">
-      <created>1671874127325</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1671874127325</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Abstract DAO implemented">
-      <created>1671874146123</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1671874146123</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Added random animal method">
-      <created>1671874362434</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1671874362434</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Refactored AnimalDaoSQLImpl.java for MySQL implementation">
-      <created>1671874914523</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1671874914523</updated>
+      <workItem from="1673522046727" duration="27927000" />
+      <workItem from="1673700569305" duration="4194000" />
     </task>
     <task id="LOCAL-00040" summary="Refactored HabitatDaoSQLImpl.java for MySQL implementation">
       <created>1671875551623</created>
@@ -503,7 +453,56 @@
       <option name="project" value="LOCAL" />
       <updated>1673642604814</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="appfx cleanup">
+      <created>1673646769085</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1673646769085</updated>
+    </task>
+    <task id="LOCAL-00083" summary="login style edit">
+      <created>1673646793189</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1673646793190</updated>
+    </task>
+    <task id="LOCAL-00084" summary="controller fixes">
+      <created>1673646892817</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1673646892817</updated>
+    </task>
+    <task id="LOCAL-00085" summary="end of day commit">
+      <created>1673646913035</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1673646913035</updated>
+    </task>
+    <task id="LOCAL-00086" summary="end of day commit">
+      <created>1673646917707</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1673646917707</updated>
+    </task>
+    <task id="LOCAL-00087" summary="end of day commit">
+      <created>1673646921253</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1673646921253</updated>
+    </task>
+    <task id="LOCAL-00088" summary="end of day commit">
+      <created>1673646926499</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1673646926499</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,10 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AoUAnimalController implementation" />
-    <MESSAGE value="about fxml" />
-    <MESSAGE value="animal fxml" />
-    <MESSAGE value="aoeanimal fxml" />
     <MESSAGE value="home fxml" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="added dependencies for fx" />
@@ -546,7 +541,11 @@
     <MESSAGE value="SQL animal history error fix" />
     <MESSAGE value="Fully functional DEMO" />
     <MESSAGE value="Image edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image edits" />
+    <MESSAGE value="appfx cleanup" />
+    <MESSAGE value="login style edit" />
+    <MESSAGE value="controller fixes" />
+    <MESSAGE value="end of day commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="end of day commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
