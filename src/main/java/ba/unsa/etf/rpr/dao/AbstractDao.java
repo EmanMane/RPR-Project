@@ -2,16 +2,13 @@ package ba.unsa.etf.rpr.dao;
 
 import ba.unsa.etf.rpr.domain.Idable;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
-
-import java.io.Closeable;
-import java.io.IOException;
 import java.sql.*;
 import java.util.*;
 
 /**
  * Abstract class that implements core DAO CRUD methods for every entity
  *
- * @author Eman Alibalic
+ * @author Eman Alibalić
  */
 public abstract class AbstractDao<T extends Idable> implements Dao<T> {
     private static Connection connection = null;
@@ -230,4 +227,20 @@ public abstract class AbstractDao<T extends Idable> implements Dao<T> {
         }
         return columns.toString();
     }
+
+    public int findFirstFreeID(){
+        try {
+            PreparedStatement stmt = getConnection().prepareStatement("SELECT MIN(t1.id + 1) AS nextID\n" +
+                    "        FROM habitats t1\n" +
+                    "        LEFT JOIN habitats t2\n" +
+                    "        ON t1.id + 1 = t2.id\n" +
+                    "        WHERE t2.id IS NULL;");
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            return rs.getInt(1);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }
