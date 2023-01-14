@@ -29,12 +29,12 @@ public class AnimalManager {
         return DaoFactory.animalDao().getById(animalId);
     }
 
-    public void update(Animal q) throws AnimalException{
-        DaoFactory.animalDao().update(q);
+    public void update(Animal a) throws AnimalException{
+        DaoFactory.animalDao().update(a);
     }
 
-    public Animal add(Animal q) throws AnimalException{
-        return DaoFactory.animalDao().add(q);
+    public Animal add(Animal a) throws AnimalException{
+        return DaoFactory.animalDao().add(a);
     }
     public int findFirstFreeID() throws AnimalException{
         return DaoFactory.animalDao().findFirstFreeID();
