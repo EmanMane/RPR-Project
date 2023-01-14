@@ -11,6 +11,11 @@ public class Habitat implements Idable{
     private int id;
     private String name;
 
+    public Habitat(String name) {
+        this.name = name;
+    }
+
+    public Habitat() {}
     public int getId(){
         return id;
     }
