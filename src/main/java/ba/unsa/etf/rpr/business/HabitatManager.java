@@ -3,10 +3,6 @@ package ba.unsa.etf.rpr.business;
 import ba.unsa.etf.rpr.dao.DaoFactory;
 import ba.unsa.etf.rpr.domain.Habitat;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
-
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -55,9 +51,9 @@ public class HabitatManager {
 
     }
 
-    public Habitat update(Habitat cat) throws AnimalException{
-        validateHabitatName(cat.getName());
-        return DaoFactory.habitatDao().update(cat);
+    public Habitat update(Habitat x) throws AnimalException{
+        validateHabitatName(x.getName());
+        return DaoFactory.habitatDao().update(x);
     }
 
     public List<Habitat> getAll() throws AnimalException{
