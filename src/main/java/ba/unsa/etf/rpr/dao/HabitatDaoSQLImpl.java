@@ -13,8 +13,20 @@ import java.util.TreeMap;
  */
 public class HabitatDaoSQLImpl extends AbstractDao<Habitat> implements HabitatDao{
 
-    public HabitatDaoSQLImpl() {
+    private static  HabitatDaoSQLImpl instance = null;
+    private HabitatDaoSQLImpl() {
         super("habitats");
+    }
+
+    public static HabitatDaoSQLImpl getInstance(){
+        if(instance==null)
+            instance = new HabitatDaoSQLImpl();
+        return instance;
+    }
+
+    public static void removeInstance(){
+        if(instance!=null)
+            instance=null;
     }
 
     @Override
@@ -50,6 +62,5 @@ public class HabitatDaoSQLImpl extends AbstractDao<Habitat> implements HabitatDa
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
