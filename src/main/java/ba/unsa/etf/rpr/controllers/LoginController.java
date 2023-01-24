@@ -1,5 +1,16 @@
 package ba.unsa.etf.rpr.controllers;
 
+import javafx.geometry.Pos;
+import javafx.scene.Parent;
+import javafx.scene.control.*;
+import javafx.scene.image.Image;
+import javafx.scene.layout.ColumnConstraints;
+import javafx.scene.layout.HBox;
+import javafx.scene.text.Text;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
+import javafx.event.ActionEvent;
+
 import ba.unsa.etf.rpr.exceptions.AnimalException;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -30,7 +41,6 @@ public class LoginController{
     @FXML
     private Hyperlink registerLink;
 
-
     public void loginButtonOnAction(ActionEvent event) throws AnimalException, IOException {
         if(usernameTextField.getText().isEmpty() && passwordTextField.getText().isEmpty()){
             loginMessageLabel.setText("No input!");
@@ -41,12 +51,10 @@ public class LoginController{
     }
 
     public boolean validateLogin() throws AnimalException, IOException {
-        loginMessageLabel.setText("Processing...");
         if(manager.validateUser(usernameTextField.getText(),passwordTextField.getText())) {
-            loginMessageLabel.setText("Success!");
             return true;
         }
-        loginMessageLabel.setText("Invalid login.\nPlease enter Your details again.");
+        loginMessageLabel.setText("Invalid login!\nPlease enter Your details again!");
         return false;
     }
 
@@ -57,15 +65,25 @@ public class LoginController{
 
     public void goToHome() throws IOException {
         try {
-            ((Stage) usernameTextField.getScene().getWindow()).close();
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
-            loader.setController(new HomeController());
-            Stage homeStage = new Stage();
-            homeStage.setScene(new Scene(loader.load(), USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
-            homeStage.initStyle(StageStyle.UTILITY);
-            homeStage.setTitle("ZOO HOME");
-            homeStage.setMaximized(true); //FULLSCREEN
-            homeStage.show();
+            ((Stage) usernameTextField.getScene().getWindow()).hide();
+//            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
+//            loader.setController(new HomeController());
+//            Stage homeStage = new Stage();
+//            homeStage.setScene(new Scene(loader.load(), USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
+//            homeStage.initStyle(StageStyle.UTILITY);
+//            homeStage.setTitle("ZOO HOME");
+//            homeStage.setResizable(true);
+//            homeStage.setMaximized(true); //FULLSCREEN
+//            homeStage.show();
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
+            fxmlLoader.setController(new HomeController());
+            Stage stage = new Stage();
+            stage.getIcons().add(new Image("/jpeg/SanDiegoZooLogo.png"));
+            stage.setTitle("ZOO HOME");
+            stage.setMaximized(true);
+            Parent root = fxmlLoader.load();
+            stage.setScene(new Scene(root, USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
+            stage.show();
         } catch (Exception e) {
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
