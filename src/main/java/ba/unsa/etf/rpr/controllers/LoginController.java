@@ -1,30 +1,21 @@
 package ba.unsa.etf.rpr.controllers;
 
-import ba.unsa.etf.rpr.business.HabitatManager;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.fxml.Initializable;
-import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 import ba.unsa.etf.rpr.business.UserManager;
 import javafx.stage.StageStyle;
-import javafx.stage.Window;
-//import jdk.internal.loader.Loader;
+
 
 import java.io.IOException;
-import java.util.List;
-import java.util.ResourceBundle;
 
 import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
 
 public class LoginController{
-
     private UserManager manager = new UserManager();
     @FXML
     private Button cancelButton;
@@ -75,27 +66,10 @@ public class LoginController{
             homeStage.setTitle("ZOO HOME");
             homeStage.setMaximized(true); //FULLSCREEN
             homeStage.show();
-//            homeStage.setOnHiding(event -> {
-//                ((Stage) usernameTextField.getScene().getWindow()).show();
-//            });
         } catch (Exception e) {
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
     }
-
-//    private void goToHome(){
-//        try {
-//            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
-//            loader.setController(new HomeController());
-//            Stage stage = new Stage();
-//            stage.setScene(new Scene(loader.load(), USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
-//            stage.setTitle("Home");
-//            stage.initStyle(StageStyle.UTILITY);
-//            stage.show();
-//        }catch (Exception e){
-//            new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
-//        }
-//    }
 
     public void registerLinkOnAction() throws IOException{
         try {
@@ -113,13 +87,5 @@ public class LoginController{
         } catch (Exception e) {
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
-
-//        //homeStage.initStyle(StageStyle.DECORATED);
-//        homeStage.setScene(new Scene(root, USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
-//        homeStage.setResizable(true);
-//        homeStage.show();
     }
-
-
-
-    }
+}
