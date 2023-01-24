@@ -31,7 +31,7 @@
                         <Font name="Yu Gothic Light" size="12.0" />
                      </font>
                   </PasswordField>
-                  <Label fx:id="registerMessageLabel" layoutX="13.0" layoutY="298.0" maxHeight="86.0" maxWidth="202.0" minHeight="58.0" minWidth="202.0" prefHeight="58.0" prefWidth="202.0" textAlignment="CENTER">
+                  <Label fx:id="registerMessageLabel" alignment="CENTER" layoutX="16.0" layoutY="289.0" maxHeight="86.0" maxWidth="202.0" minHeight="58.0" minWidth="183.0" prefHeight="58.0" prefWidth="183.0" textAlignment="CENTER">
                      <font>
                         <Font name="Malgun Gothic Semilight" size="12.0" />
                      </font>
