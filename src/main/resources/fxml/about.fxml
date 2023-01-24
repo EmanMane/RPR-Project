@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label prefHeight="33.0" prefWidth="46.0" text="Zoo v1.0" BorderPane.alignment="CENTER" />
+   </top>
    <center>
-      <Label text="Zoo v1.0" BorderPane.alignment="CENTER" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="This app is used to manage habitats and animals in a Zoo. It is a  simple app which can be modified and updated in the future..." textAlignment="JUSTIFY" translateX="-85.0" translateY="-23.0" wrappingWidth="166.0535125732422" BorderPane.alignment="CENTER" />
    </center>
    <bottom>
-      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
-         <image>
-            <Image fx:id="mojaSlika" url="@../../../../../../image.png" />
-         </image>
-      </ImageView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="App by EmanMane" translateX="43.0" translateY="-6.0" BorderPane.alignment="CENTER" />
    </bottom>
+   <left>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="NOTE: You need to connect the app to your own DB" translateX="16.0" translateY="44.0" wrappingWidth="171.08863830566406" BorderPane.alignment="CENTER" />
+   </left>
 </BorderPane>
