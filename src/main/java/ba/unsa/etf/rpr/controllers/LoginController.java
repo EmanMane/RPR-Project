@@ -66,21 +66,12 @@ public class LoginController{
     public void goToHome() throws IOException {
         try {
             ((Stage) usernameTextField.getScene().getWindow()).hide();
-//            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
-//            loader.setController(new HomeController());
-//            Stage homeStage = new Stage();
-//            homeStage.setScene(new Scene(loader.load(), USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
-//            homeStage.initStyle(StageStyle.UTILITY);
-//            homeStage.setTitle("ZOO HOME");
-//            homeStage.setResizable(true);
-//            homeStage.setMaximized(true); //FULLSCREEN
-//            homeStage.show();
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
             fxmlLoader.setController(new HomeController());
             Stage stage = new Stage();
             stage.getIcons().add(new Image("/jpeg/SanDiegoZooLogo.png"));
             stage.setTitle("ZOO HOME");
-            stage.setMaximized(true);
+            stage.setMaximized(true); //FULLSCREEN
             Parent root = fxmlLoader.load();
             stage.setScene(new Scene(root, USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
             stage.show();
