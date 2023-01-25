@@ -19,7 +19,7 @@ public class AppFX extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/login.fxml"));
         LoginController loginController = new LoginController();
-        stage.getIcons().add(new Image("/jpeg/SanDiegoZooLogo.png"));
+        stage.getIcons().add(new Image("/jpeg/SanDiegoZooLogoIcon.png"));
         fxmlLoader.setController(loginController);
         Parent root = fxmlLoader.load();
         stage.initStyle(StageStyle.UNDECORATED); //Adobe type Login (No resize)
