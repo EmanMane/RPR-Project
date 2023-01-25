@@ -95,15 +95,14 @@ public class AnimalController {
      */
     public void editAnimalScene(Integer animalId){
         try{
-            System.out.println("OK");
             ((Stage)animalsTable.getScene().getWindow()).hide();
-
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/aoeanimal.fxml"));
             loader.setController(new AoUAnimalController(animalId));
             Stage stage = new Stage();
             stage.setScene(new Scene(loader.load(), USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
             stage.initStyle(StageStyle.UTILITY);
             stage.setTitle("Edit Animal");
+            stage.setResizable(false);
             stage.show();
             stage.setOnHiding(event -> {
                 ((Stage)animalScreen.getScene().getWindow()).show();
