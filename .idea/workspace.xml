@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Added constructor">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/HabitatManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/HabitatManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +51,13 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/User/Desktop/quote-maker-main",
+    "extract.method.default.visibility": "public",
+    "last_opened_file_path": "C:/Users/User/Desktop/Hairsalon-Reservastion-master",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -173,70 +179,8 @@
       <workItem from="1673251407310" duration="4148000" />
       <workItem from="1673279403966" duration="103000" />
       <workItem from="1673522046727" duration="27927000" />
-      <workItem from="1673700569305" duration="9856000" />
-    </task>
-    <task id="LOCAL-00059" summary="aoeanimal fxml">
-      <created>1671897874379</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1671897874379</updated>
-    </task>
-    <task id="LOCAL-00060" summary="home fxml">
-      <created>1671897888322</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1671897888323</updated>
-    </task>
-    <task id="LOCAL-00061" summary="minor changes">
-      <created>1671897930040</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1671897930040</updated>
-    </task>
-    <task id="LOCAL-00062" summary="minor changes">
-      <created>1671898336407</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1671898336407</updated>
-    </task>
-    <task id="LOCAL-00063" summary="added dependencies for fx">
-      <created>1672050716902</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1672050716902</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Login image upload">
-      <created>1672068894391</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1672068894391</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Login Controller added">
-      <created>1672068934020</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1672068934020</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Login.fxml added">
-      <created>1672068952627</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1672068952628</updated>
-    </task>
-    <task id="LOCAL-00067" summary="User class created">
-      <created>1672069120796</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1672069120796</updated>
+      <workItem from="1673700569305" duration="11274000" />
+      <workItem from="1674595289747" duration="11339000" />
     </task>
     <task id="LOCAL-00068" summary="small updates">
       <created>1672069148187</created>
@@ -518,7 +462,70 @@
       <option name="project" value="LOCAL" />
       <updated>1673736392703</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Test cleanup">
+      <created>1673737419462</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1673737419462</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Test cleanup">
+      <created>1673737995148</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1673737995148</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Code cleanup">
+      <created>1674596054266</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1674596054266</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Icon added">
+      <created>1674596064254</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1674596064254</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Alignment fix">
+      <created>1674601747965</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1674601747965</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Alignment fix">
+      <created>1674601753672</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1674601753672</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Login stage switch fix">
+      <created>1674601771749</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1674601771749</updated>
+    </task>
+    <task id="LOCAL-00115" summary="about updated">
+      <created>1674601819194</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1674601819194</updated>
+    </task>
+    <task id="LOCAL-00116" summary="cleanup">
+      <created>1674602066578</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1674602066578</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,12 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="User manager method to validate new user" />
-    <MESSAGE value="End of the day commit" />
-    <MESSAGE value="Register Window jpg update" />
-    <MESSAGE value="Register Window fxml update" />
-    <MESSAGE value="home fxml changes and login controller simplification" />
-    <MESSAGE value="animal fxml fix" />
     <MESSAGE value="SQL animal history error fix" />
     <MESSAGE value="Fully functional DEMO" />
     <MESSAGE value="Image edits" />
@@ -557,24 +558,21 @@
     <MESSAGE value="Idable comments edit" />
     <MESSAGE value="Habitat constructor" />
     <MESSAGE value="App reupload" />
-    <MESSAGE value="Code cleanup" />
     <MESSAGE value="Tests for HabitatManager" />
     <MESSAGE value="Delete unnecessary file" />
     <MESSAGE value="Added constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added constructor" />
+    <MESSAGE value="Test cleanup" />
+    <MESSAGE value="Code cleanup" />
+    <MESSAGE value="Icon added" />
+    <MESSAGE value="Alignment fix" />
+    <MESSAGE value="Login stage switch fix" />
+    <MESSAGE value="about updated" />
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java</url>
-          <line>121</line>
-          <properties class="ba.unsa.etf.rpr.controllers.AnimalController" method="addAnimal">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.RuntimeException" package="java.lang" />
           <option name="timeStamp" value="21" />
