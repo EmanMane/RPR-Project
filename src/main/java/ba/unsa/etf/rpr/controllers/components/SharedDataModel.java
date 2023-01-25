@@ -4,19 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 import javafx.stage.Stage;
 
-
+/**
+ * Class to control and close all stages when necessary
+ */
 public class SharedDataModel {
-    private List<Stage> openStages = new ArrayList<>();
+    private static List<Stage> openStages = new ArrayList<>();
 
-    public void addOpenStage(Stage stage) {
+    public static void addOpenStage(Stage stage) {
         openStages.add(stage);
     }
 
-    public void removeOpenStage(Stage stage) {
+    public static void removeOpenStage(Stage stage) {
         openStages.remove(stage);
     }
 
-    public void closeAllStages() {
+    public static void closeAllStages() {
         for (Stage stage : openStages) {
             stage.close();
         }
