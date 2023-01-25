@@ -1,6 +1,7 @@
 package ba.unsa.etf.rpr.controllers;
 
 import ba.unsa.etf.rpr.business.AnimalManager;
+import ba.unsa.etf.rpr.controllers.components.SharedDataModel;
 import ba.unsa.etf.rpr.domain.Animal;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
 import javafx.application.Platform;
@@ -60,6 +61,7 @@ public class HomeController {
             stage.setResizable(false);
             stage.initStyle(StageStyle.UTILITY);
             stage.show();
+            SharedDataModel.addOpenStage(stage);
         }catch (Exception e){
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
@@ -84,6 +86,7 @@ public class HomeController {
             stage.show();
             stage.setMinHeight(600);
             stage.setMinWidth(610);
+            SharedDataModel.addOpenStage(stage);
         }catch (Exception e){
             new Alert(Alert.AlertType.NONE, e.getMessage(), ButtonType.OK).show();
         }
