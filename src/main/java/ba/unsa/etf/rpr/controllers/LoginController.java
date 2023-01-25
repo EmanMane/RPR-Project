@@ -69,8 +69,10 @@ public class LoginController{
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/home.fxml"));
             fxmlLoader.setController(new HomeController());
             Stage stage = new Stage();
-            stage.getIcons().add(new Image("/jpeg/SanDiegoZooLogo.png"));
+            stage.getIcons().add(new Image("/jpeg/SanDiegoZooLogoIcon.png"));
             stage.setTitle("ZOO HOME");
+            stage.setMinHeight(400);
+            stage.setMinWidth(629);
             stage.setMaximized(true); //FULLSCREEN
             Parent root = fxmlLoader.load();
             stage.setScene(new Scene(root, USE_COMPUTED_SIZE, USE_COMPUTED_SIZE));
