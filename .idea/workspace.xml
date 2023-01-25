@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="cleanup">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="added comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/AppFX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/AnimalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,8 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -180,84 +178,7 @@
       <workItem from="1673279403966" duration="103000" />
       <workItem from="1673522046727" duration="27927000" />
       <workItem from="1673700569305" duration="11274000" />
-      <workItem from="1674595289747" duration="11339000" />
-    </task>
-    <task id="LOCAL-00068" summary="small updates">
-      <created>1672069148187</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1672069148187</updated>
-    </task>
-    <task id="LOCAL-00069" summary="AppFX minor modifications">
-      <created>1672100079294</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1672100079294</updated>
-    </task>
-    <task id="LOCAL-00070" summary="User class minor changes">
-      <created>1673225484302</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1673225484302</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Register controller made functional">
-      <created>1673225501439</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1673225501439</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Register fxml compatible">
-      <created>1673225519050</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1673225519050</updated>
-    </task>
-    <task id="LOCAL-00073" summary="User manager method to validate new user">
-      <created>1673225538989</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1673225538989</updated>
-    </task>
-    <task id="LOCAL-00074" summary="End of the day commit">
-      <created>1673227184661</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1673227184661</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Register Window jpg update">
-      <created>1673522144319</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1673522144319</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Register Window fxml update">
-      <created>1673522156829</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1673522156829</updated>
-    </task>
-    <task id="LOCAL-00077" summary="home fxml changes and login controller simplification">
-      <created>1673522190460</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1673522190460</updated>
-    </task>
-    <task id="LOCAL-00078" summary="animal fxml fix">
-      <created>1673524078634</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1673524078634</updated>
+      <workItem from="1674595289747" duration="12713000" />
     </task>
     <task id="LOCAL-00079" summary="SQL animal history error fix">
       <created>1673626151967</created>
@@ -525,7 +446,84 @@
       <option name="project" value="LOCAL" />
       <updated>1674602066578</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="stages array created">
+      <created>1674607277702</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607277702</updated>
+    </task>
+    <task id="LOCAL-00118" summary="stages array implemented">
+      <created>1674607300617</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607300617</updated>
+    </task>
+    <task id="LOCAL-00119" summary="gif 1 upload">
+      <created>1674607316130</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607316130</updated>
+    </task>
+    <task id="LOCAL-00120" summary="gif 2 upload">
+      <created>1674607320979</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607320979</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Icon for app">
+      <created>1674607335010</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607335010</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Home fix (stage switch)">
+      <created>1674607398260</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607398260</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Login fix (stage switch)">
+      <created>1674607407112</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607407112</updated>
+    </task>
+    <task id="LOCAL-00124" summary="fxml glow-up">
+      <created>1674607424693</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607424693</updated>
+    </task>
+    <task id="LOCAL-00125" summary="appFX minor changes">
+      <created>1674607436353</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607436353</updated>
+    </task>
+    <task id="LOCAL-00126" summary="controller resize-ability">
+      <created>1674607457540</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607457540</updated>
+    </task>
+    <task id="LOCAL-00127" summary="added comments">
+      <created>1674607947307</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607947307</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,17 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SQL animal history error fix" />
-    <MESSAGE value="Fully functional DEMO" />
-    <MESSAGE value="Image edits" />
-    <MESSAGE value="appfx cleanup" />
-    <MESSAGE value="login style edit" />
-    <MESSAGE value="controller fixes" />
-    <MESSAGE value="end of day commit" />
-    <MESSAGE value="pom.xml added dependencies" />
-    <MESSAGE value="Demo delete" />
-    <MESSAGE value="App CLI creation" />
-    <MESSAGE value="Abstract DAO small edits" />
     <MESSAGE value="pom.xml dependencies fix" />
     <MESSAGE value="Idable comments edit" />
     <MESSAGE value="Habitat constructor" />
@@ -568,7 +555,18 @@
     <MESSAGE value="Login stage switch fix" />
     <MESSAGE value="about updated" />
     <MESSAGE value="cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
+    <MESSAGE value="stages array created" />
+    <MESSAGE value="stages array implemented" />
+    <MESSAGE value="gif 1 upload" />
+    <MESSAGE value="gif 2 upload" />
+    <MESSAGE value="Icon for app" />
+    <MESSAGE value="Home fix (stage switch)" />
+    <MESSAGE value="Login fix (stage switch)" />
+    <MESSAGE value="fxml glow-up" />
+    <MESSAGE value="appFX minor changes" />
+    <MESSAGE value="controller resize-ability" />
+    <MESSAGE value="added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

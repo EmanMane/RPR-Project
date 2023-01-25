@@ -2,6 +2,7 @@ package ba.unsa.etf.rpr.controllers;
 
 import ba.unsa.etf.rpr.business.AnimalManager;
 import ba.unsa.etf.rpr.controllers.components.DoubleButtonCellFactory;
+import ba.unsa.etf.rpr.controllers.components.SharedDataModel;
 import ba.unsa.etf.rpr.domain.Animal;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
 import javafx.collections.FXCollections;
@@ -104,6 +105,7 @@ public class AnimalController {
             stage.setTitle("Edit Animal");
             stage.setResizable(false);
             stage.show();
+            SharedDataModel.addOpenStage(stage);
             stage.setOnHiding(event -> {
                 ((Stage)animalScreen.getScene().getWindow()).show();
                 refreshAnimals();
