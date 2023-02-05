@@ -85,7 +85,6 @@ public class App {
 
         CommandLine cl = commandLineParser.parse(options, args);
 
-//        while(true) {
         if((cl.hasOption(addAnimal.getOpt()) || cl.hasOption(addAnimal.getLongOpt())) && cl.hasOption((habitatDefinition.getLongOpt()))){
             AnimalManager animalManager = new AnimalManager();
             HabitatManager habitatManager = new HabitatManager();
@@ -96,21 +95,14 @@ public class App {
                 System.out.println("There is no habitat in the list! Try again.");
                 System.exit(1);
             }
-
-//                if(!habitat.getName().equals(cl.getArgList().get(1))){
-//                    System.out.println("There is no habitat with passed name! Try again.");
-//                    System.exit(-1);
-//                }
             Animal animal = new Animal();
             animal.setHabitat(habitat);
             animal.setAnimal(cl.getArgList().get(0));
             animalManager.add(animal);
             System.out.println("You successfully added animal to database!");
-//                break;
         } else if(cl.hasOption(getAnimals.getOpt()) || cl.hasOption(getAnimals.getLongOpt())){
             AnimalManager animalManager = new AnimalManager();
             animalManager.getAll().forEach(q -> System.out.println(q.getAnimal()));
-//                break;
         } else if(cl.hasOption(addHabitat.getOpt()) || cl.hasOption(addHabitat.getLongOpt())){
             try {
                 HabitatManager habitatManager = new HabitatManager();
@@ -118,22 +110,17 @@ public class App {
                 cat.setName(cl.getArgList().get(0));
                 habitatManager.add(cat);
                 System.out.println("Habitat has been added successfully");
-//                    break;
             }catch(Exception e) {
                 System.out.println("There is already habitat with same name in database! Try again");
                 System.exit(1);
-//                   break;
             }
 
         } else if(cl.hasOption(getHabitats.getOpt()) || cl.hasOption(getHabitats.getLongOpt())){
             HabitatManager habitatManager = new HabitatManager();
             habitatManager.getAll().forEach(c -> System.out.println(c.getName()));
-//                break;
         } else {
             printFormattedOptions(options);
             System.exit(-1);
-//                break;
         }
-//        }
     }
 }
