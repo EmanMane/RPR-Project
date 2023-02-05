@@ -11,7 +11,6 @@ public class Animal implements Idable{
     private int id;
     private String animal;
     private Habitat habitat;
-
     public int getId() {
         return id;
     }
