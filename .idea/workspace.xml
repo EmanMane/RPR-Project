@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RPR-Project:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="workspace commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/AnimalManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/AnimalManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="cli-app" />
+        <option value="gui-app" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="2IZuveDrPE7Jid1IAeauVjTswzj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -48,11 +60,11 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;public&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Hairsalon-Reservastion-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/quote-maker-main&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21609196&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -76,7 +88,7 @@
       <recent name="ba.unsa.etf.rpr.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppFX">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.App" />
       <module name="RPR-Project" />
@@ -140,10 +152,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.AppFX" />
         <item itemvalue="JUnit.HabitatManagerTest" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -178,28 +190,8 @@
       <workItem from="1673700569305" duration="11274000" />
       <workItem from="1674595289747" duration="13087000" />
       <workItem from="1675548535927" duration="1774000" />
-      <workItem from="1675587694781" duration="1870000" />
-    </task>
-    <task id="LOCAL-00089" summary="pom.xml added dependencies">
-      <created>1673718137664</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1673718137664</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Demo delete">
-      <created>1673718154403</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1673718154403</updated>
-    </task>
-    <task id="LOCAL-00091" summary="App CLI creation">
-      <created>1673718171597</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1673718171597</updated>
+      <workItem from="1675587694781" duration="6169000" />
+      <workItem from="1675597494001" duration="3946000" />
     </task>
     <task id="LOCAL-00092" summary="Abstract DAO small edits">
       <created>1673718190115</created>
@@ -523,7 +515,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675588468899</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Tests removal">
+      <created>1675591752073</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1675591752073</updated>
+    </task>
+    <task id="LOCAL-00139" summary="animal modification">
+      <created>1675591775866</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1675591775867</updated>
+    </task>
+    <task id="LOCAL-00140" summary="workspace commit">
+      <created>1675591788507</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1675591788507</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,8 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Code cleanup" />
-    <MESSAGE value="Icon added" />
     <MESSAGE value="Alignment fix" />
     <MESSAGE value="Login stage switch fix" />
     <MESSAGE value="about updated" />
@@ -565,6 +576,8 @@
     <MESSAGE value="habitat dump" />
     <MESSAGE value="user dump" />
     <MESSAGE value="history dump" />
+    <MESSAGE value="Tests removal" />
+    <MESSAGE value="animal modification" />
     <MESSAGE value="workspace commit" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace commit" />
   </component>
