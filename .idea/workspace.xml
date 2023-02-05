@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="end of day commit">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="workspace commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/AnimalManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/AnimalManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -178,55 +178,7 @@
       <workItem from="1673700569305" duration="11274000" />
       <workItem from="1674595289747" duration="13087000" />
       <workItem from="1675548535927" duration="1774000" />
-    </task>
-    <task id="LOCAL-00082" summary="appfx cleanup">
-      <created>1673646769085</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1673646769085</updated>
-    </task>
-    <task id="LOCAL-00083" summary="login style edit">
-      <created>1673646793189</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1673646793190</updated>
-    </task>
-    <task id="LOCAL-00084" summary="controller fixes">
-      <created>1673646892817</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1673646892817</updated>
-    </task>
-    <task id="LOCAL-00085" summary="end of day commit">
-      <created>1673646913035</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1673646913035</updated>
-    </task>
-    <task id="LOCAL-00086" summary="end of day commit">
-      <created>1673646917707</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1673646917707</updated>
-    </task>
-    <task id="LOCAL-00087" summary="end of day commit">
-      <created>1673646921253</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1673646921253</updated>
-    </task>
-    <task id="LOCAL-00088" summary="end of day commit">
-      <created>1673646926499</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1673646926499</updated>
+      <workItem from="1675587694781" duration="1870000" />
     </task>
     <task id="LOCAL-00089" summary="pom.xml added dependencies">
       <created>1673718137664</created>
@@ -522,7 +474,56 @@
       <option name="project" value="LOCAL" />
       <updated>1674608918629</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="created AnimalManagerTest.java">
+      <created>1675587846007</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1675587846008</updated>
+    </task>
+    <task id="LOCAL-00132" summary="code modification">
+      <created>1675587866034</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1675587866034</updated>
+    </task>
+    <task id="LOCAL-00133" summary="animal dump">
+      <created>1675588382744</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1675588382744</updated>
+    </task>
+    <task id="LOCAL-00134" summary="habitat dump">
+      <created>1675588392076</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1675588392076</updated>
+    </task>
+    <task id="LOCAL-00135" summary="user dump">
+      <created>1675588404003</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1675588404003</updated>
+    </task>
+    <task id="LOCAL-00136" summary="history dump">
+      <created>1675588446216</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1675588446216</updated>
+    </task>
+    <task id="LOCAL-00137" summary="workspace commit">
+      <created>1675588468899</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1675588468899</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,13 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Idable comments edit" />
-    <MESSAGE value="Habitat constructor" />
-    <MESSAGE value="App reupload" />
-    <MESSAGE value="Tests for HabitatManager" />
-    <MESSAGE value="Delete unnecessary file" />
-    <MESSAGE value="Added constructor" />
-    <MESSAGE value="Test cleanup" />
     <MESSAGE value="Code cleanup" />
     <MESSAGE value="Icon added" />
     <MESSAGE value="Alignment fix" />
@@ -565,7 +559,14 @@
     <MESSAGE value="controller resize-ability" />
     <MESSAGE value="added comments" />
     <MESSAGE value="end of day commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="end of day commit" />
+    <MESSAGE value="created AnimalManagerTest.java" />
+    <MESSAGE value="code modification" />
+    <MESSAGE value="animal dump" />
+    <MESSAGE value="habitat dump" />
+    <MESSAGE value="user dump" />
+    <MESSAGE value="history dump" />
+    <MESSAGE value="workspace commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
