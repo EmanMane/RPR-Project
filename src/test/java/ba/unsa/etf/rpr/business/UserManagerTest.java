@@ -64,4 +64,20 @@ class UserManagerTest {
         }
         assertTrue(x);
     }
+
+    @Test
+    void test3(){
+        //This is admin user that exist in DB Dump
+        String correctName = "Miki";
+        String correctPass = "disneyland";
+        boolean x = false;
+        try {
+            x = UserManager.validateUser(correctName,correctPass);
+        }  catch (AnimalException e) {
+            //Test will fall if method validateUser(username,password) throws an exception for correct parameter in DB
+            e.printStackTrace();
+            Assertions.assertFalse(false);
+        }
+        assertFalse(x);
+    }
 }
