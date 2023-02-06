@@ -74,7 +74,6 @@ class UserManagerTest {
         try {
             x = UserManager.validateUser(correctName,correctPass);
         }  catch (AnimalException e) {
-            //Test will fall if method validateUser(username,password) throws an exception for correct parameter in DB
             e.printStackTrace();
             Assertions.assertFalse(false);
         }
