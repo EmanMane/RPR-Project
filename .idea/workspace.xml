@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="created test class for user manager" />
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="added user constructor with no parameters">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/UserManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/UserManagerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,69 +192,7 @@
       <workItem from="1675548535927" duration="1774000" />
       <workItem from="1675587694781" duration="6169000" />
       <workItem from="1675597494001" duration="4286000" />
-    </task>
-    <task id="LOCAL-00095" summary="Habitat constructor">
-      <created>1673728632910</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1673728632910</updated>
-    </task>
-    <task id="LOCAL-00096" summary="App reupload">
-      <created>1673728650993</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1673728650993</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Code cleanup">
-      <created>1673730555130</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1673730555130</updated>
-    </task>
-    <task id="LOCAL-00098" summary="Code cleanup">
-      <created>1673730559092</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1673730559092</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Code cleanup">
-      <created>1673730563003</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1673730563003</updated>
-    </task>
-    <task id="LOCAL-00100" summary="Code cleanup">
-      <created>1673730565588</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1673730565588</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Code cleanup">
-      <created>1673730569757</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1673730569757</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Code cleanup">
-      <created>1673730577142</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1673730577142</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Code cleanup">
-      <created>1673730580054</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1673730580054</updated>
+      <workItem from="1675683616609" duration="822000" />
     </task>
     <task id="LOCAL-00104" summary="Code cleanup">
       <created>1673730584863</created>
@@ -534,7 +474,70 @@
       <option name="project" value="LOCAL" />
       <updated>1675602479824</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="workspace commit">
+      <created>1675683635460</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683635461</updated>
+    </task>
+    <task id="LOCAL-00145" summary="history DB upload fix">
+      <created>1675683670422</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683670422</updated>
+    </task>
+    <task id="LOCAL-00146" summary="animals DB upload fix">
+      <created>1675683682304</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683682304</updated>
+    </task>
+    <task id="LOCAL-00147" summary="habitats DB upload fix">
+      <created>1675683691073</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683691073</updated>
+    </task>
+    <task id="LOCAL-00148" summary="users DB upload fix">
+      <created>1675683697619</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683697619</updated>
+    </task>
+    <task id="LOCAL-00149" summary="created test class for user manager">
+      <created>1675683905408</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683905408</updated>
+    </task>
+    <task id="LOCAL-00150" summary="workspace commit">
+      <created>1675683959547</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683959547</updated>
+    </task>
+    <task id="LOCAL-00151" summary="added user constructor with name parameter">
+      <created>1675684395415</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1675684395415</updated>
+    </task>
+    <task id="LOCAL-00152" summary="added user constructor with no parameters">
+      <created>1675684420140</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1675684420140</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,8 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gif 2 upload" />
-    <MESSAGE value="Icon for app" />
     <MESSAGE value="Home fix (stage switch)" />
     <MESSAGE value="Login fix (stage switch)" />
     <MESSAGE value="fxml glow-up" />
@@ -571,13 +572,15 @@
     <MESSAGE value="animal modification" />
     <MESSAGE value="jar commit" />
     <MESSAGE value="manifest" />
-    <MESSAGE value="workspace commit" />
     <MESSAGE value="history DB upload fix" />
     <MESSAGE value="animals DB upload fix" />
     <MESSAGE value="habitats DB upload fix" />
     <MESSAGE value="users DB upload fix" />
     <MESSAGE value="created test class for user manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="created test class for user manager" />
+    <MESSAGE value="workspace commit" />
+    <MESSAGE value="added user constructor with name parameter" />
+    <MESSAGE value="added user constructor with no parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user constructor with no parameters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
