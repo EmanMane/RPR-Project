@@ -9,7 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="workspace.xml commit">
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Method made static">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/UserManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/UserManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
       <recent name="ba.unsa.etf.rpr.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.UserManagerTest.test2">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.App" />
       <module name="RPR-Project" />
@@ -116,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Demo" />
-      <module name="RPR-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HabitatManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPR-Project" />
       <extension name="coverage">
@@ -144,18 +132,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserManagerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPR-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.business" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.business.UserManagerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagerTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPR-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.business" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.business.UserManagerTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppFX" />
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.Demo" />
+      <item itemvalue="JUnit.UserManagerTest.test1" />
+      <item itemvalue="JUnit.UserManagerTest.test2" />
       <item itemvalue="JUnit.HabitatManagerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserManagerTest.test2" />
+        <item itemvalue="JUnit.UserManagerTest.test1" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.AppFX" />
         <item itemvalue="JUnit.HabitatManagerTest" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -192,28 +214,7 @@
       <workItem from="1675548535927" duration="1774000" />
       <workItem from="1675587694781" duration="6169000" />
       <workItem from="1675597494001" duration="4286000" />
-      <workItem from="1675683616609" duration="1217000" />
-    </task>
-    <task id="LOCAL-00105" summary="Tests for HabitatManager">
-      <created>1673736367037</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1673736367037</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Delete unnecessary file">
-      <created>1673736381883</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1673736381883</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Added constructor">
-      <created>1673736392703</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1673736392703</updated>
+      <workItem from="1675683616609" duration="2518000" />
     </task>
     <task id="LOCAL-00108" summary="Test cleanup">
       <created>1673737419462</created>
@@ -537,7 +538,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675684579045</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="workspace.xml commit">
+      <created>1675685022530</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1675685022530</updated>
+    </task>
+    <task id="LOCAL-00155" summary="constructor fix">
+      <created>1675685363602</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1675685363602</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Method made static">
+      <created>1675685378268</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1675685378268</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,8 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Login fix (stage switch)" />
-    <MESSAGE value="fxml glow-up" />
     <MESSAGE value="appFX minor changes" />
     <MESSAGE value="controller resize-ability" />
     <MESSAGE value="added comments" />
@@ -580,7 +600,9 @@
     <MESSAGE value="added user constructor with name parameter" />
     <MESSAGE value="added user constructor with no parameters" />
     <MESSAGE value="workspace.xml commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml commit" />
+    <MESSAGE value="constructor fix" />
+    <MESSAGE value="Method made static" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method made static" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
