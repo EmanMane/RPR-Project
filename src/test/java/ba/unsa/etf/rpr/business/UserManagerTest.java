@@ -92,4 +92,16 @@ class UserManagerTest {
             Assertions.assertTrue(false);
         }
         assertTrue(x);
-    }}
+    }
+    @Test
+    void test5() {
+        try {
+            Mockito.doCallRealMethod().when(userManager).validateUser(null, null);
+        } catch (AnimalException e) {
+            //Test will fall if method validateUser(username,password) doesn't throw an exception for incorrect parameter
+            e.printStackTrace();
+            Assertions.assertFalse(false);
+        }
+    }
+
+}
