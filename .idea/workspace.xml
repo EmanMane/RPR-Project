@@ -191,28 +191,7 @@
       <workItem from="1674595289747" duration="13087000" />
       <workItem from="1675548535927" duration="1774000" />
       <workItem from="1675587694781" duration="6169000" />
-      <workItem from="1675597494001" duration="3946000" />
-    </task>
-    <task id="LOCAL-00092" summary="Abstract DAO small edits">
-      <created>1673718190115</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1673718190115</updated>
-    </task>
-    <task id="LOCAL-00093" summary="pom.xml dependencies fix">
-      <created>1673728590982</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1673728590982</updated>
-    </task>
-    <task id="LOCAL-00094" summary="Idable comments edit">
-      <created>1673728617049</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1673728617049</updated>
+      <workItem from="1675597494001" duration="4286000" />
     </task>
     <task id="LOCAL-00095" summary="Habitat constructor">
       <created>1673728632910</created>
@@ -536,7 +515,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675591788507</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="jar commit">
+      <created>1675602458295</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1675602458295</updated>
+    </task>
+    <task id="LOCAL-00142" summary="manifest">
+      <created>1675602468927</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1675602468927</updated>
+    </task>
+    <task id="LOCAL-00143" summary="workspace commit">
+      <created>1675602479824</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1675602479824</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,8 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Alignment fix" />
-    <MESSAGE value="Login stage switch fix" />
     <MESSAGE value="about updated" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="stages array created" />
@@ -578,6 +576,8 @@
     <MESSAGE value="history dump" />
     <MESSAGE value="Tests removal" />
     <MESSAGE value="animal modification" />
+    <MESSAGE value="jar commit" />
+    <MESSAGE value="manifest" />
     <MESSAGE value="workspace commit" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace commit" />
   </component>
