@@ -6,3 +6,5 @@ It can be run in IntelliJ terminal by typing the next two commands:</p>
 <b>mvn clean install</b>
 
 <b>mvn clean javafx:run</b>
+
+App class contains instructions on how to use Command Line Interface (CLI) for basic operations. The .jar file used to run the CLI is in "out" folder
