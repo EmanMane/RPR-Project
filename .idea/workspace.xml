@@ -86,7 +86,7 @@
       <recent name="ba.unsa.etf.rpr.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserManagerTest.addNewUser">
+  <component name="RunManager" selected="JUnit.UserManagerTest.deleteUser">
     <configuration name="UserManagerTest.addNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPR-Project" />
       <extension name="coverage">
@@ -103,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserManagerTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserManagerTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPR-Project" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +113,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.business" />
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.business.UserManagerTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="deleteUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,18 +169,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UserManagerTest.addNewUser" />
-      <item itemvalue="JUnit.UserManagerTest.test2" />
+      <item itemvalue="JUnit.UserManagerTest.deleteUser" />
       <item itemvalue="JUnit.UserManagerTest.test3" />
       <item itemvalue="JUnit.UserManagerTest.test4" />
       <item itemvalue="JUnit.UserManagerTest.test5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserManagerTest.deleteUser" />
         <item itemvalue="JUnit.UserManagerTest.addNewUser" />
         <item itemvalue="JUnit.UserManagerTest.test5" />
         <item itemvalue="JUnit.UserManagerTest.test4" />
         <item itemvalue="JUnit.UserManagerTest.test3" />
-        <item itemvalue="JUnit.UserManagerTest.test2" />
       </list>
     </recent_temporary>
   </component>
