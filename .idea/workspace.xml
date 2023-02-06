@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Method made static">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/UserManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/UserManagerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="test2 added for user manager class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +86,7 @@
       <recent name="ba.unsa.etf.rpr.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserManagerTest.test2">
+  <component name="RunManager" selected="JUnit.UserManagerTest.test3">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.App" />
       <module name="RPR-Project" />
@@ -113,21 +110,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HabitatManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RPR-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.business" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.business.HabitatManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,20 +146,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserManagerTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPR-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.business" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.business.UserManagerTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppFX" />
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.UserManagerTest.test1" />
       <item itemvalue="JUnit.UserManagerTest.test2" />
-      <item itemvalue="JUnit.HabitatManagerTest" />
+      <item itemvalue="JUnit.UserManagerTest.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserManagerTest.test3" />
         <item itemvalue="JUnit.UserManagerTest.test2" />
         <item itemvalue="JUnit.UserManagerTest.test1" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.AppFX" />
-        <item itemvalue="JUnit.HabitatManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,28 +212,7 @@
       <workItem from="1675548535927" duration="1774000" />
       <workItem from="1675587694781" duration="6169000" />
       <workItem from="1675597494001" duration="4286000" />
-      <workItem from="1675683616609" duration="2518000" />
-    </task>
-    <task id="LOCAL-00108" summary="Test cleanup">
-      <created>1673737419462</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1673737419462</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Test cleanup">
-      <created>1673737995148</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1673737995148</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Code cleanup">
-      <created>1674596054266</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1674596054266</updated>
+      <workItem from="1675683616609" duration="2910000" />
     </task>
     <task id="LOCAL-00111" summary="Icon added">
       <created>1674596064254</created>
@@ -559,7 +536,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675685378268</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="added test for usermanager">
+      <created>1675686475876</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1675686475876</updated>
+    </task>
+    <task id="LOCAL-00158" summary="workspace commit">
+      <created>1675686487118</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1675686487118</updated>
+    </task>
+    <task id="LOCAL-00159" summary="test2 added for user manager class">
+      <created>1675686517707</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1675686517708</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,8 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="appFX minor changes" />
-    <MESSAGE value="controller resize-ability" />
     <MESSAGE value="added comments" />
     <MESSAGE value="end of day commit" />
     <MESSAGE value="created AnimalManagerTest.java" />
@@ -596,13 +592,15 @@
     <MESSAGE value="habitats DB upload fix" />
     <MESSAGE value="users DB upload fix" />
     <MESSAGE value="created test class for user manager" />
-    <MESSAGE value="workspace commit" />
     <MESSAGE value="added user constructor with name parameter" />
     <MESSAGE value="added user constructor with no parameters" />
     <MESSAGE value="workspace.xml commit" />
     <MESSAGE value="constructor fix" />
     <MESSAGE value="Method made static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method made static" />
+    <MESSAGE value="added test for usermanager" />
+    <MESSAGE value="workspace commit" />
+    <MESSAGE value="test2 added for user manager class" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2 added for user manager class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
