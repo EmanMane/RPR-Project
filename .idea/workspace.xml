@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="workspace commit" />
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="javadoc commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RPR_Project_jar/RPR-Project.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RPR_Project_jar/RPR-Project.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +91,20 @@
       <recent name="ba.unsa.etf.rpr.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserManagerTest.deleteUser">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.App" />
+      <module name="RPR-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserManagerTest.addNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPR-Project" />
       <extension name="coverage">
@@ -114,22 +132,6 @@
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.business" />
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.business.UserManagerTest" />
       <option name="METHOD_NAME" value="deleteUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserManagerTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RPR-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.business" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.business.UserManagerTest" />
-      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,19 +170,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.App" />
       <item itemvalue="JUnit.UserManagerTest.addNewUser" />
       <item itemvalue="JUnit.UserManagerTest.deleteUser" />
-      <item itemvalue="JUnit.UserManagerTest.test3" />
       <item itemvalue="JUnit.UserManagerTest.test4" />
       <item itemvalue="JUnit.UserManagerTest.test5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.UserManagerTest.deleteUser" />
         <item itemvalue="JUnit.UserManagerTest.addNewUser" />
         <item itemvalue="JUnit.UserManagerTest.test5" />
         <item itemvalue="JUnit.UserManagerTest.test4" />
-        <item itemvalue="JUnit.UserManagerTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -217,42 +219,7 @@
       <workItem from="1675548535927" duration="1774000" />
       <workItem from="1675587694781" duration="6169000" />
       <workItem from="1675597494001" duration="4286000" />
-      <workItem from="1675683616609" duration="4956000" />
-    </task>
-    <task id="LOCAL-00121" summary="Icon for app">
-      <created>1674607335010</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1674607335010</updated>
-    </task>
-    <task id="LOCAL-00122" summary="Home fix (stage switch)">
-      <created>1674607398260</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1674607398260</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Login fix (stage switch)">
-      <created>1674607407112</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1674607407112</updated>
-    </task>
-    <task id="LOCAL-00124" summary="fxml glow-up">
-      <created>1674607424693</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1674607424693</updated>
-    </task>
-    <task id="LOCAL-00125" summary="appFX minor changes">
-      <created>1674607436353</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1674607436353</updated>
+      <workItem from="1675683616609" duration="7674000" />
     </task>
     <task id="LOCAL-00126" summary="controller resize-ability">
       <created>1674607457540</created>
@@ -562,7 +529,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675688292321</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="workspace commit">
+      <created>1675688611360</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1675688611360</updated>
+    </task>
+    <task id="LOCAL-00171" summary="workspace commit">
+      <created>1675688720757</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1675688720757</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Test7 added for usermanager">
+      <created>1675688745358</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1675688745358</updated>
+    </task>
+    <task id="LOCAL-00173" summary="added constructor with username parameter">
+      <created>1675688801913</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1675688801913</updated>
+    </task>
+    <task id="LOCAL-00174" summary="javadoc commit">
+      <created>1675689047969</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1675689047969</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,9 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="user dump" />
-    <MESSAGE value="history dump" />
-    <MESSAGE value="Tests removal" />
     <MESSAGE value="animal modification" />
     <MESSAGE value="jar commit" />
     <MESSAGE value="manifest" />
@@ -605,7 +604,10 @@
     <MESSAGE value="test5 for user manager class" />
     <MESSAGE value="test6 for user manager class" />
     <MESSAGE value="workspace commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace commit" />
+    <MESSAGE value="Test7 added for usermanager" />
+    <MESSAGE value="added constructor with username parameter" />
+    <MESSAGE value="javadoc commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="javadoc commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
