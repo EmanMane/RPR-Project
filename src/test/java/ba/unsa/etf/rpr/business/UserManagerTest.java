@@ -1,6 +1,7 @@
 package ba.unsa.etf.rpr.business;
 
 import ba.unsa.etf.rpr.dao.UserDaoSQLImpl;
+import ba.unsa.etf.rpr.domain.Habitat;
 import ba.unsa.etf.rpr.domain.User;
 import ba.unsa.etf.rpr.exceptions.AnimalException;
 import org.junit.jupiter.api.Assertions;
@@ -102,6 +103,19 @@ class UserManagerTest {
             e.printStackTrace();
             Assertions.assertFalse(false);
         }
+    }
+
+    /**
+     * Adding a new user
+     * @throws AnimalException
+     */
+    @Test
+    void addNewUser() throws AnimalException {
+        User newUser = new User("New User","New Pass");
+        userManager.add(newUser);
+
+        Assertions.assertTrue(true);
+        Mockito.verify(userManager).add(newUser);
     }
 
 }
