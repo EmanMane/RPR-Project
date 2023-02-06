@@ -18,11 +18,11 @@ public class UserManager {
         return DaoFactory.userDao().getAll();
     }
 
-    public List<User> searchUser(String text) throws AnimalException {
+    public static List<User> searchUser(String text) throws AnimalException {
         return DaoFactory.userDao().searchByName(text);
     }
 
-    public boolean validateUser(String username,String password) throws AnimalException{
+    public static boolean validateUser(String username, String password) throws AnimalException{
         if (password == null || username==null){
             throw new AnimalException("No username or password!");
         }
