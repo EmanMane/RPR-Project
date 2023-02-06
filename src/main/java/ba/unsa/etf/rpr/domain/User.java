@@ -16,6 +16,7 @@ public class User implements Idable{
     public User(String name) {
         this.username = name;
     }
+    public User() {}
 
     public int getId() {
         return id;
