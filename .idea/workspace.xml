@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="workspace commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="created test class for user manager" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -554,11 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="about updated" />
-    <MESSAGE value="cleanup" />
-    <MESSAGE value="stages array created" />
-    <MESSAGE value="stages array implemented" />
-    <MESSAGE value="gif 1 upload" />
     <MESSAGE value="gif 2 upload" />
     <MESSAGE value="Icon for app" />
     <MESSAGE value="Home fix (stage switch)" />
@@ -579,7 +572,12 @@
     <MESSAGE value="jar commit" />
     <MESSAGE value="manifest" />
     <MESSAGE value="workspace commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace commit" />
+    <MESSAGE value="history DB upload fix" />
+    <MESSAGE value="animals DB upload fix" />
+    <MESSAGE value="habitats DB upload fix" />
+    <MESSAGE value="users DB upload fix" />
+    <MESSAGE value="created test class for user manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="created test class for user manager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
