@@ -13,8 +13,9 @@ public class User implements Idable{
     private String password;
     private int admin;
 
-    public User(String name) {
+    public User(String name,String pass) {
         this.username = name;
+        this.password=pass;
     }
     public User() {}
 
