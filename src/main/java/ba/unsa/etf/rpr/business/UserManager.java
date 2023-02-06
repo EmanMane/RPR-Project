@@ -40,7 +40,7 @@ public class UserManager {
         }
     }
 
-    public boolean validateNewUser(String username) throws AnimalException{
+    public static boolean validateNewUser(String username) throws AnimalException{
         if (username==null){
             throw new AnimalException("No username!");
         }
