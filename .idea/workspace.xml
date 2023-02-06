@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="test5 for user manager class">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/UserManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/business/UserManagerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="workspace commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,21 +217,7 @@
       <workItem from="1675548535927" duration="1774000" />
       <workItem from="1675587694781" duration="6169000" />
       <workItem from="1675597494001" duration="4286000" />
-      <workItem from="1675683616609" duration="4638000" />
-    </task>
-    <task id="LOCAL-00119" summary="gif 1 upload">
-      <created>1674607316130</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1674607316130</updated>
-    </task>
-    <task id="LOCAL-00120" summary="gif 2 upload">
-      <created>1674607320979</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1674607320979</updated>
+      <workItem from="1675683616609" duration="4956000" />
     </task>
     <task id="LOCAL-00121" summary="Icon for app">
       <created>1674607335010</created>
@@ -564,7 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675688110468</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="test6 for user manager class">
+      <created>1675688280260</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1675688280260</updated>
+    </task>
+    <task id="LOCAL-00169" summary="workspace commit">
+      <created>1675688292321</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1675688292321</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="habitat dump" />
     <MESSAGE value="user dump" />
     <MESSAGE value="history dump" />
     <MESSAGE value="Tests removal" />
@@ -605,9 +602,10 @@
     <MESSAGE value="test3 change for user manager class" />
     <MESSAGE value="making method static" />
     <MESSAGE value="test4 for user manager class" />
-    <MESSAGE value="workspace commit" />
     <MESSAGE value="test5 for user manager class" />
-    <option name="LAST_COMMIT_MESSAGE" value="test5 for user manager class" />
+    <MESSAGE value="test6 for user manager class" />
+    <MESSAGE value="workspace commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
