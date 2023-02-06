@@ -79,4 +79,17 @@ class UserManagerTest {
         }
         assertFalse(x);
     }
-}
+
+    @Test
+    void test4(){
+        //This is a user that doesn't exist in DB Dump
+        String correctName = "Miki";
+        boolean x = false;
+        try {
+            x = UserManager.validateNewUser(correctName);
+        }  catch (AnimalException e) {
+            e.printStackTrace();
+            Assertions.assertTrue(false);
+        }
+        assertTrue(x);
+    }}
