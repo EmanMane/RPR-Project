@@ -117,5 +117,13 @@ class UserManagerTest {
         Assertions.assertTrue(true);
         Mockito.verify(userManager).add(newUser);
     }
+    @Test
+    void deleteUser() throws AnimalException {
+        User deletionUser = new User("User1","x");
+        userManager.delete(deletionUser.getId());
+
+        Assertions.assertTrue(true);
+        Mockito.verify(userManager).delete(deletionUser.getId());
+    }
 
 }
