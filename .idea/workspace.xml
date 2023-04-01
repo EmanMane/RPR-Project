@@ -11,12 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="95083d2e-313a-4f9a-8b03-76ec1b6ed784" name="Changes" comment="Final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUMP/freedb_RPRproject_animal_history.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUMP/freedb_RPRproject_animals.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUMP/freedb_RPRproject_habitats.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUMP/freedb_RPRproject_users.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUMP/freedb_rprproject_animal_history0.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/RPR_Project_jar/RPR-Project.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DUMP/freedb_rprproject_animals0.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DUMP/freedb_rprproject_animals0.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DUMP/freedb_rprproject_habitats0.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DUMP/freedb_rprproject_habitats0.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DUMP/freedb_rprproject_users0.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DUMP/freedb_rprproject_users0.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "extract.method.default.visibility": "public",
-    "last_opened_file_path": "C:/Users/User/Desktop/JavaProjekti/RPR-Project-gui",
+    "last_opened_file_path": "C:/Users/User/Desktop/RPR",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -108,9 +105,11 @@
       </method>
     </configuration>
     <configuration name="AppFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.AppFX" />
-      <module name="RPR-Project" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\User\Desktop\JavaProjekti\javafx-sdk-19\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <module name="RPR" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-20\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
@@ -220,6 +219,7 @@
       <workItem from="1675587694781" duration="6169000" />
       <workItem from="1675597494001" duration="4286000" />
       <workItem from="1675683616609" duration="10805000" />
+      <workItem from="1680383070289" duration="2846000" />
     </task>
     <task id="LOCAL-00127" summary="added comments">
       <created>1674607947307</created>
