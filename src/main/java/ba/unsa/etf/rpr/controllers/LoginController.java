@@ -1,12 +1,19 @@
 package ba.unsa.etf.rpr.controllers;
 
 import ba.unsa.etf.rpr.controllers.components.SharedDataModel;
+import javafx.application.Platform;
+import javafx.event.EventHandler;
+import javafx.fxml.Initializable;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.control.*;
+import javafx.scene.effect.DropShadow;
 import javafx.scene.image.Image;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.HBox;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
@@ -24,10 +31,13 @@ import javafx.stage.StageStyle;
 
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.Objects;
+import java.util.ResourceBundle;
 
 import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
 
-public class LoginController{
+public class LoginController implements Initializable {
     private UserManager manager = new UserManager();
     @FXML
     private Button cancelButton;
@@ -40,7 +50,50 @@ public class LoginController{
     @FXML
     private PasswordField passwordTextField;
     @FXML
-    private Hyperlink registerLink;
+    public Hyperlink registerLink;
+    @FXML
+    private BorderPane mainPane;
+
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // Remove focus from all controls
+        cancelButton.setFocusTraversable(false);
+        loginMessageLabel.setFocusTraversable(false);
+        loginButton.setFocusTraversable(false);
+        usernameTextField.setFocusTraversable(false);
+        passwordTextField.setFocusTraversable(false);
+        registerLink.setFocusTraversable(false);
+
+        // Remove focus from textField after clicking anywhere else
+        // Add a listener to the parent node of the text field
+        usernameTextField.getParent().setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                // When the parent node is clicked, remove focus from the text field
+                usernameTextField.getParent().requestFocus();
+            }
+        });
+
+        // Add a listener to the password field to set the dropshadow color
+        DropShadow redShadow = new DropShadow(10, Color.RED);
+
+        passwordTextField.textProperty().addListener((observable, oldValue, newValue) -> {
+            // If the password field has between 1 and 7 characters and loses focus, set the dropshadow
+            if (passwordTextField.getLength() > 0 && passwordTextField.getLength() < 8) {
+                passwordTextField.setEffect(redShadow);
+                passwordTextField.setStyle("-fx-focus-color: transparent;");
+                loginMessageLabel.setText("Password needs to have 8\n or more characters!");
+            }
+
+            // If the password field has 8 or more characters, remove the dropshadow and set the on-focus color
+            if (passwordTextField.getLength() >= 8 || passwordTextField.getLength() < 1) {
+                passwordTextField.setEffect(null);
+                passwordTextField.setStyle("-fx-focus-color: #0077be;");
+                loginMessageLabel.setText("");
+            }
+        });
+    }
+
 
     public void loginButtonOnAction(ActionEvent event) throws AnimalException, IOException {
         if(usernameTextField.getText().isEmpty() && passwordTextField.getText().isEmpty()){
@@ -55,7 +108,7 @@ public class LoginController{
         if(manager.validateUser(usernameTextField.getText(),passwordTextField.getText())) {
             return true;
         }
-        loginMessageLabel.setText("Invalid login!\nPlease enter Your details again!");
+        if(Objects.equals(loginMessageLabel.getText(), "")) loginMessageLabel.setText("Invalid login!\nPlease enter Your details again!");
         return false;
     }
 
